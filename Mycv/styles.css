@@ -1,0 +1,54 @@
+
+
+.container {
+    padding: 40px;
+    width: 390px;
+    height: 2410px;
+    background-color: black;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    top: 40px;
+    left: 40px;
+    border: 1px solid #008000;
+    border-radius: 130px;
+   position: relative;
+}
+
+h1 {
+    color: white;
+    padding-top: 18px;
+    font-family: 'DM Sans', sans-serif;
+    
+}
+
+h2 {
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+}
+
+hr {
+    color: #008000;
+    
+}
+
+h3 {
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.icon {
+    position: absolute;
+}
+
+
+
+
+
+
+
+.experience_colum {
+    background-color: white;
+}
