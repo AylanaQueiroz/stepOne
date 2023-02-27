@@ -1,11 +1,22 @@
+*{
+    margin: 0;
+    top:0;
+    font-family: 'DM Sans', sans-serif;  
+    box-sizing: border-box;
+}
 
 
 .container {
-    padding: 40px;
     width: 390px;
     height: 2410px;
-    background-color: black;
 }
+
+
+.information_colum {
+    background-color: black;
+    color: white;
+}
+
 
 img {
     width: 300px;
@@ -14,41 +25,67 @@ img {
     left: 40px;
     border: 1px solid #008000;
     border-radius: 130px;
-   position: relative;
+    position: relative;
 }
+
 
 h1 {
-    color: white;
-    padding-top: 18px;
-    font-family: 'DM Sans', sans-serif;
-    
+    text-align: center;
+    padding-top: 45px;        
 }
+
 
 h2 {
-    color: white;
-    font-family: 'DM Sans', sans-serif;
+    text-align: center;
 }
+
 
 hr {
-    color: #008000;
-    
+    background-color: #008000;   
+    height: 3px;
+    margin-top: 12px;
+    margin-left: 38px;
+    margin-right: 38px;
 }
 
-h3 {
-    color: white;
+
+.contato {
     font-family: 'DM Sans', sans-serif;
+    list-style: none;
+    line-height: 30px;
+    margin-top: 15px
 }
 
-.icon {
-    position: absolute;
+i {
+    color:#008000;   
+}
+
+a {
+     color: white;
+    text-decoration: none;
 }
 
 
+.educacao {
+    list-style: none;
+    line-height: 25px;
+    margin-top: 15px
+}
 
 
+.ano {
+    color:#008000;
+}
 
+
+.linguas {
+    
+    list-style: none;
+}
 
 
 .experience_colum {
     background-color: white;
+    width: 390px;
+    height: 354px;
 }
