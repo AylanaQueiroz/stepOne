@@ -39,10 +39,14 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    margin-left: 40px;
+}
+
 
 hr {
     background-color: #008000;   
-    height: 3px;
+    height: 1px;
     margin-top: 12px;
     margin-left: 38px;
     margin-right: 38px;
@@ -81,7 +85,24 @@ a {
 .linguas {
     
     list-style: none;
+    line-height: 25px;
+    margin-top: 15px;
+    padding-bottom: 40px;
 }
+
+
+.portugues {
+    width: 280px;
+    height: 5px;
+}
+
+
+.ingles {
+    width: 200px;
+    height: 5px;
+}
+
+
 
 
 .experience_colum {
