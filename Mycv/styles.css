@@ -1,71 +1,56 @@
 * {
     margin: 0;
-    top: 0;
-    font-family: 'DM Sans', sans-serif;
+    padding: 0;
     box-sizing: border-box;
 }
 
 
 .container {
-    width: 390px;
-    height: 1044px;
+    font-family: 'DM Sans', sans-serif;
 }
 
 
 .information_colum {
     background-color: black;
-    color: white; 
-    width: 390px;
-    height: 1044px;
+    padding: 40px;
+    text-align: center;
+    color: white;
 }
 
 
 img {
     width: 300px;
     height: 300px;
-    top: 40px;
-    left: 40px;
-    border: 1px solid #008000;
-    border-radius: 130px;
-    position: relative;
-}
-
-
-h1 {
-    text-align: center;
-    padding-top: 40px;
-}
-
-
-h2 {
-    text-align: center;
-}
-
-
-h3 {
-    margin-left: 40px;
+    border-radius: 50%;
+    border: 1px solid green;
+    margin-bottom: 18px;
 }
 
 
 hr {
     background-color: #008000;
     height: 1px;
-    margin-top: 12px;
-    margin-left: 38px;
-    margin-right: 38px;
+    margin-top: 18px;
 }
 
 
 .contato {
-    font-family: 'DM Sans', sans-serif;
     list-style: none;
-    line-height: 30px;
+    text-align: left;
+    background-color: black;
     margin-top: 15px
 }
+
+
+li {
+    list-style: none;
+}
+
 
 i {
     color: #008000;
 }
+
 
 a {
     color: white;
@@ -76,7 +61,7 @@ a {
 .educacao {
     list-style: none;
     line-height: 25px;
-    margin-top: 15px
+    margin-top: 15px;
 }
 
 
@@ -107,22 +92,12 @@ a {
 
 
 .experience_colum {
-    margin: 0;
-    top: 0;
-    font-family: 'DM Sans', sans-serif;
-    box-sizing: border-box;
-    width: 390px;
-    height: 1366px;
-    padding-left: 40px;
-    padding-right: 40px;
-    
+    padding: 40px;
 }
-    
+
 
 .h3_experience {
-    margin-left: 0;
-    padding-top: 20px;
-    padding-bottom: 40px;
+    padding-top: 30px;
 }
 
 
@@ -132,8 +107,13 @@ a {
 }
 
 @media (min-width:992px) {
-
-    .experience_colum {
-        background-color:red
+    .container {
+        display: flex;
     }
+
+    .information_colum img {
+        width: 200px;
+        height: 200px;
+    }
+
 }
