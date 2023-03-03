@@ -1,6 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.img_principal {
+    display: 
+}
+
 .celulares {
-    width: 360px;
-    height: 539px;
-    padding-top: 135px;
-    padding-left: 136px;
+    width: 420px;
+    height:580x;
+    padding-top: 25px;
+    padding-left: 266px;
+}
+
+.logo_instagram {
+    width: 155px;
+    height: 60px;
+    margin-left: 60%;
+    position: absolute;
+    top: 15%;
 }
