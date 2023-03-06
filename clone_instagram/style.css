@@ -23,7 +23,8 @@
     display: inline-block;
     position: absolute;
     top:0;
-    
+    border: 1px solid #dbdbdb;
+    text-align: left
 }
 
 .logo {
