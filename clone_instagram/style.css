@@ -14,19 +14,55 @@
     width: 360px;
     margin-left: 136px;
     display: inline-block;
+    top: 8px;
+    left: 7px;
+    position: relative;
+    margin-right: 45px;
 }
 
 
 .form {
-    height: 772px;
+    height: 400px;
     width: 350px;
     display: inline-block;
     position: absolute;
-    top:0;
     border: 1px solid #dbdbdb;
-    text-align: left
+    text-align: left;
+    top:94px;
 }
 
 .logo {
     margin-left: 30%;
+    
+}
+
+.reset_senha {
+    display: inline-block;
+    position: absolute;
+    border: 1px solid #dbdbdb;
+    text-align: left;
+    top:90%;
+    width: 350px;
+}
+
+
+form {
+    text-align: center;
+    
+}
+
+input {
+    height: 36px;
+    margin-bottom: 15px;
+    background-color: #FAFAFA;
+    width: 268px;
+    height: 36px;
+}
+
+.entrar {
+    width: 268px;
+    height: 30px;
+    background-color: #4db5f9;
+    border-radius: 4px;
+    
 }
