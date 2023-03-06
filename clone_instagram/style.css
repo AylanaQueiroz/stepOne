@@ -4,20 +4,28 @@
 }
 
 .img_principal {
-    display: 
+    display: inline-block;
 }
 
-.celulares {
-    width: 420px;
-    height:580x;
-    padding-top: 25px;
-    padding-left: 266px;
+
+
+.img_cel {
+    height: 539px;
+    width: 360px;
+    margin-left: 136px;
+    display: inline-block;
 }
 
-.logo_instagram {
-    width: 155px;
-    height: 60px;
-    margin-left: 60%;
+
+.form {
+    height: 772px;
+    width: 350px;
+    display: inline-block;
     position: absolute;
-    top: 15%;
+    top:0;
+    
+}
+
+.logo {
+    margin-left: 30%;
 }
