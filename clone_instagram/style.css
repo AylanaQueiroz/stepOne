@@ -55,9 +55,9 @@ input {
 
 .entrar {
     width: 268px;
-    height: 30px;
+    height: 35px;
     background-color: #4db5f9;
-    border-radius: 4px;
+    border-radius: 8px;
     color: white;
     font-weight: bold;
 }
@@ -132,4 +132,11 @@ footer {
     font-size: 12px;
    
    
+}
+
+.copyright{
+    color: #ab9cbd;
+    padding: 4px;
+    font-size: 12px;
+    margin-left: 40%;
 }
