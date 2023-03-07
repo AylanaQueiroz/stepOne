@@ -85,6 +85,11 @@ a {
     padding-top: 15px;
  }
 
+ .black {
+    color: black;
+    margin-bottom: 10px;
+ }
+
 .reset_senha {
     display: inline-block;
     position: absolute;
@@ -101,4 +106,30 @@ a {
     color: #0095f7;
     font-weight: bold;
     text-align: center;
+}
+
+.logo_rodape {
+    display: inline-block;
+    position: absolute;
+    top:80%;
+    margin-left: 53%;
+    text-align: center;
+
+}
+
+footer {
+    position: absolute;
+    top:97%;
+    text-decoration: none;
+    margin-left: 18%;
+    margin-right: 15%;
+    
+}
+
+.a_footer {
+    color: #ab9cbd;
+    padding: 4px;
+    font-size: 12px;
+   
+   
 }
