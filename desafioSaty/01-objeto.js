@@ -26,8 +26,29 @@ let user = {
         console.log("efetuou o login");
     },
 
+    logout:function() {
+         console.log("Efetuou o logout");
+    }, 
 
-}
+};
 
-console.log (user)
+
+console.log (user);
+console.log (user.age);
+
+
+user.phone=6633;
+console.log(user);
+
+
+user.username="jonatas";
+console.log (user);
+
+
+delete user.username;
+console.log (user);
+
+
+
+
 

@@ -9,3 +9,20 @@
 // 5- Remova o último elemento do array
 
 // 6- Como ficou o array final?! E qual é o elemento 1 desse array?
+
+
+let animals = [];
+
+
+animals = ["dog","cat"];
+
+animals.unshift("spider");
+
+animals.shift();
+
+animals.pop();
+
+console.log(animals);
+
+array final = dog, dog.
+
