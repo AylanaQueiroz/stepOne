@@ -29,7 +29,7 @@ num1 is equal to num2: num 1 é igual ao num2
 // Para testar seu código:
 // depois de declarar a função, chame ela passando os seguintes parâmetros, 
 // e deve aparecer essa resposta:
-
+/*
 function findLargest(num1, num2) {
     if () {
         console.log();
@@ -45,3 +45,32 @@ function findLargest(num1, num2) {
 console.log(findLargest(16, 45)); //"45 the largest number"
 console.log(findLargest(34, 10)); //"34 is the largest number"
 console.log(findLargest(42, 42)); //"42 is equal to 42"
+
+*/
+
+let month =5;
+
+
+
+
+
+if (month >= 1 && month <= 3) {
+
+    console.log ("its's summer");
+
+}  else if (month >= 4 && month <= 6){
+   
+    console.log ("It's autum");
+
+} else if (month >= 7 && month <= 9) {
+    
+    console.log ("It's winter");
+
+}  else if  (month >= 10 && month <= 12) {
+   
+    console.log ("It's Spring");
+
+} else {
+    
+    console.log ("This is not a month");
+} 
