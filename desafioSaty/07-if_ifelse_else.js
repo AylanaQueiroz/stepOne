@@ -48,29 +48,17 @@ console.log(findLargest(42, 42)); //"42 is equal to 42"
 
 */
 
-let month =5;
+let num1= 16;
+let num2 = 45;
 
-
-
-
-
-if (month >= 1 && month <= 3) {
-
-    console.log ("its's summer");
-
-}  else if (month >= 4 && month <= 6){
-   
-    console.log ("It's autum");
-
-} else if (month >= 7 && month <= 9) {
-    
-    console.log ("It's winter");
-
-}  else if  (month >= 10 && month <= 12) {
-   
-    console.log ("It's Spring");
-
-} else {
-    
-    console.log ("This is not a month");
-} 
+function findLargest(num1, num2) {
+    if (num1 > num2) {
+        console.log("Number 1 is the largest");
+    }
+    else if (num1 < num2) {
+        console.log("Number 2 is the largest");
+    }
+    else {
+        console.log("num1 is equal to num2");
+    }
+}
