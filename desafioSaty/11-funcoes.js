@@ -10,3 +10,19 @@
 
 // It's a rectangle
 
+
+function rectangleOrSquare(length, width) {
+
+    if (length == width) {
+
+        console.log("It's square");
+
+    } else if (length != width) {
+
+        console.log("It's a rectangle");
+
+    }
+
+}
+
+rectangleOrSquare(23, 23);
