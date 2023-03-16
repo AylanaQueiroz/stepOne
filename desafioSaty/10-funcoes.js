@@ -5,3 +5,12 @@
 // A função deve mostrar no console a área do retângulo com a seguinte frase:
 // The area of rectangle is XXX.
 
+
+
+function retangleArea (length,width) {
+
+    console.log("the area of retangle is " + length*width)
+
+}
+
+retangleArea(10,4)
