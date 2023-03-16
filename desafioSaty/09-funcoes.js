@@ -18,3 +18,37 @@
 //número pelo outro
 
 
+function soma (a,b) {
+
+
+    console.log (a+b);
+}
+
+soma (2,4)
+
+
+function subtract (c,d) {
+
+    console.log(c-d);
+
+}
+
+subtract (5,2)
+
+
+function multipication (e,f) {
+
+    console.log(e*f)
+
+}
+
+multipication(5,2)
+
+
+function division (g,h) {
+
+    console.log (g/h)
+
+}
+
+division(10,2)
