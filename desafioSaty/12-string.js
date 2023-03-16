@@ -5,3 +5,6 @@
 
 // // Exemplo de output: Saty is 4 code units long
 
+let username = "aylana";
+
+console.log(username.length)
