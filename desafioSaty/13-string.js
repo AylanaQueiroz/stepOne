@@ -9,7 +9,10 @@
 
 function abbrevName(firstName, lastName){
 	
+	console.log(firstName.charAt(0)+".",lastName.charAt(0)+".")
 
-	
+
 	return;
 }
+
+abbrevName("Aylana","Queiroz")
