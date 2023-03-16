@@ -48,10 +48,10 @@ console.log(findLargest(42, 42)); //"42 is equal to 42"
 
 */
 
-let num1= 10;
-let num2 = 4;
+let num1= 163;
+let num2 = 44;
 
-function findLargest() {
+function findLargest(a,b) {
     if (num1 > num2) {
         console.log("Number 1 is the largest");
     }
@@ -63,4 +63,4 @@ function findLargest() {
     }
 }
 
- findLargest()
+ findLargest(num1,num2)

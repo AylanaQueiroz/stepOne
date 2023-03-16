@@ -31,18 +31,28 @@ num1 is equal to num2: num 1 é igual ao num2
 // depois de declarar a função, chame ela passando os seguintes parâmetros, 
 // e deve aparecer essa resposta:
 
+let num1=21;
+let num2=45;
+let num3=13;
+
 function findLargest(num1, num2, num3) {
-    if () {
-        console.log();
-    } else if () {
-        console.log();
-    } else if () {
-        console.log();
+    if (num1 > num2 && num1>num3) {
+        console.log("numero 1 é o maior");
+    } else if (num2 > num1 && num2 >num3) {
+        console.log("numero 2 é o maior");
+    } else if (num3 > num1 && num3>num2) {
+        console.log("numero 3 é o maior");
     } else {
-        console.log();
+        console.log("os números são iguais");
     }
 }
+ findLargest (21,45,13);
+ findLargest (34,18,52);
+ findLargest (64,11,11);
 
+
+/*
 console.log(findLargest(21,45,13)); //"45 is the largest number"
 console.log(findLargest(34,18,52)); //"52 is the largest number"
 console.log(findLargest(64,11,11)); //"64 is the largest number"
+*/
