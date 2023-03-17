@@ -4,7 +4,7 @@
 
 // Utilizando o while, faça uma estrutura de repetição que dê o console dos números 100 a 1.
 
-/*
+
 let inicio = 50
 
 while ( inicio <101 & inicio > 49) {
@@ -26,7 +26,7 @@ while (pares <= 100) {
     pares =pares +2 ;
 }
 
-*/
+
 
 
 let inverso = 100;
