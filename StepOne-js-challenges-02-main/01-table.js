@@ -48,7 +48,20 @@ function tabuada (num2) {
 
 }
 
-tabuada(6);
+tabuada(2);
+
+
+function tabuada2 (num2) {
+
+    i=11;
+    while (i<=100) {
+        console.log("a tabuada é: "+ i + " x " +num2 + " = " +i*num2);  
+        i=i +1;
+    }
+}
+
+tabuada2(2)
+
 
 
 
