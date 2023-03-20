@@ -28,7 +28,7 @@ table(2);
 // agora ela pode ir de 1 até x.
 
 
-*/
+
 
 
 
@@ -65,5 +65,81 @@ tabuada2(2)
 
 
 
+function name (teste) {
+
+    console.log("aylana" + teste)
+}
 
 
+name("maria");
+
+
+j=1;
+function tabuada (i) {
+
+    while (j <= 10){
+        
+    
+    console.log ("a tabuada do "+i+" é "+ i +"X"+ j +"="+ i*j );
+
+    j = j +1;
+    }
+}
+
+tabuada(1)
+
+
+
+
+function multiply (j,i) {
+
+    while (j <= i) {
+
+        console.log ("a tabuada do "+i+" é "+ i +"X"+ j +"="+ i*j );
+
+        j=j+1;
+
+    }
+}
+
+multiply(1,30)
+
+
+
+
+    
+Faça a tabuada do 7 colocando 2 parâmetros:
+
+function sete (x,y) {
+
+    while (y <= 10) {
+
+        console.log ("o resultado é"+ x + "X" + y +"="+ x*y);
+        
+        y=y+1;
+
+    }
+
+
+}
+
+sete (7,1);
+
+
+*/
+
+
+
+
+
+function tabuada (w,z) {
+
+    while (z <= 100) {
+
+        console.log("o resultado é" + w*z);
+
+        z++;
+    }
+}
+
+tabuada (4,1)
