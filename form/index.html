@@ -13,22 +13,35 @@
 
     <form>
         <fieldset>
-            <legend> Formulário Avaliativo</legend>
-            <label for="name"> Qual o seu nome?</label> <br>
-            <input type="text">   <br>
-            <label for="estado civil"> Qual seu estado civil?</label> <br>
-            <input type="checkbox"> Casadíssimo <br>
-            <input type="checkbox"> Tá lendo a outra opção porque amadoh? <br>
-            <label for="e-mail"> Qual seu e-mail?<label>
-            <input type="email"> <br>
-            <label for="next">Podemos prosseguir para a próxima fase? </label> <br>
-            <input type="checkbox"> Sim
-            <input type="checkbox"> Claro
-            <button> <a href="file:///C:/Users/user/workspace/stepOne/form/form2.html">PROSSEGUIR</a></button> 
+            
+            
+                    
+                    <label for="next">Podemos prosseguir para a próxima fase? </label> <br>
+                    <input type="checkbox"> Sim
+                    <input type="checkbox"> Claro
+                    <button> <a href="file:///C:/Users/user/workspace/stepOne/form/form2.html">PROSSEGUIR</a></button>
         </fieldset>
-        
-    </form>
 
+    </form>
+    <script>
+
+
+        window.alert('Seja bem vindo a este formulário avaliativo, aqui serão colocadas à prova seus conhecimentos gerais (leia matrimoniais) ao longo de 10 questões, escolha bem suas respostas, elas serão pontuadas, e ao final você poderá ser o ganhador de um maravilhoso prêmio!')
+
+        var nome = window.prompt('Qual é seu nome? ');
+
+        window.alert('Por um acaso este formulário foi criado para ' + nome + ' oh, que incrível coincidência, não é mesmo?! Podemos prosseguir?') 
+       
+        var email= window.prompt ('Qual seu e-mail?')
+       
+        document.write ('Qual seu estado civil?<br/>') 
+
+        document.write ('<input type="checkbox"> Casadíssimo. <br/>')
+        
+        document.write ( '<input type="checkbox"> Tá lendo a outra opção porque amadoh?<br/>')
+
+
+    </script>
 
 </body>
 
