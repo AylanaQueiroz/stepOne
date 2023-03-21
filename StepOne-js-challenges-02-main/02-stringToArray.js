@@ -9,13 +9,18 @@
 // Dica: dê uma olhada nas aulas sobre Arrays para ajudar a resolver esse 
 // desafio 🙂
 
+
 const exampleString = "I love technology";
 
-function stringToArray(string) {
-    console.log("complete com o código aqui! :)");
+function stringToArray(nome) {
+    
+    
+    console.log(nome.split(' '));
 }
 
 stringToArray(exampleString);
+
+
 
 
 

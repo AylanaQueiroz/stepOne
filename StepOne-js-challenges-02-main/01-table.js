@@ -126,7 +126,7 @@ function sete (x,y) {
 sete (7,1);
 
 
-*/
+
 
 
 
