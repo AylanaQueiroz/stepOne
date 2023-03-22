@@ -11,11 +11,19 @@
 
 <body>
 
+    <div id="quadrado" onclick="clicar()">
+
+        oie
+
+    </div>
+
     <form>
-        <fieldset>
-            
-            
-                    
+        
+            <label for="estado civil"> Qual seu estado civil?</label> <br>
+            <input id="casado" onclick="estadoCivil" type="checkbox"> Casadíssimo <br>
+            <input type="checkbox"> Tá lendo a outra opção porque amadoh? <br>
+            <label for="e-mail"> Qual seu e-mail?<label>
+                    <input type="email"> <br>
                     <label for="next">Podemos prosseguir para a próxima fase? </label> <br>
                     <input type="checkbox"> Sim
                     <input type="checkbox"> Claro
@@ -34,11 +42,8 @@
        
         var email= window.prompt ('Qual seu e-mail?')
        
-        document.write ('Qual seu estado civil?<br/>') 
-
-        document.write ('<input type="checkbox"> Casadíssimo. <br/>')
         
-        document.write ( '<input type="checkbox"> Tá lendo a outra opção porque amadoh?<br/>')
+        
 
 
     </script>
