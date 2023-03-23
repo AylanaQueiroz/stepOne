@@ -1,48 +1,108 @@
 .q1 {
-
-    background-color: blue;
-    height: 300px;
+    background-color: #7149C6;
+    height: 500px;
     width: 400px;
     margin: auto;
-    position: relative;
-    border-radius: 8px;
+    border-radius: 30px;
     margin-top: 40px;
     font-family: 'DM Sans', sans-serif;
-    ;
-
 }
 
 .div_h1 {
-    margin-left: 20%;
+    margin-left: 80px;
     display: inline-block;
-    margin-bottom: 10%;
-    margin-top: 10%;
+    margin-bottom: 30px;
+    margin-top:30px;
+    font-size: 20px;
+    
 }
 
 h1 {
-    background-color: brown;
+    background-color: #FC2947;
     height: 60px;
     width: 250px;
-    border-radius: 10px;
+    border-radius: 30px;
     text-align: center;
     color: white;
-
-
+   
 }
 
-.div_p {
-    padding: 10px;
-    width: 150px;
-
-
-
-}
-
-
-p {
+.div_r1  {
     margin-top: 20px;
-    background-color: brown;
+    background-color:  #FC2947;
     border-radius: 10px;
     color: white;
+    font-family: 'DM Sans', sans-serif;
+    width: 280px;
+    margin-left: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.div_r2 {
+    margin-top: 20px;
+    background-color:  #FC2947;
+    border-radius: 10px;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    width: 280px;
+    margin-left: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.div_r3 {
+    margin-top: 20px;
+    background-color:  #FC2947;
+    border-radius: 10px;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    width: 280px;
+    margin-left: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+.div_r4 {
+    margin-top: 20px;
+    background-color:  #FC2947;
+    border-radius: 10px;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    width: 280px;
+    margin-left: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+
+.respostas {
+    
+    margin-top: 50px;
+    background-color:  #FC2947;
+    color: white;
+    
+}
+
+.resposta_errar {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+.resposta_parar {
+    
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+.resposta.acertar {
+
+    display: inline-block;
+    width: 50px;
+    height: 50px;
 
 }

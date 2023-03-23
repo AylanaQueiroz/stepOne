@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Segundo formulário</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href=style.css>
     <link rel="stylesheet" href="reset.css">
 </head>
@@ -17,12 +17,25 @@
         <div class="div_h1">
             <h1> Qual seu estado civil?</h1>
         </div>
-        <div class="div_p">
-            <p id="casado" onclick="clicar()"> Casadíssimo</p><br>
-            <p>Solteiro</p> <br>
-            <p>Namorando</p><br>
-            <p>Viúvo</p><br>
-            
+        <div>
+            <div class="div_r1">
+                <p id="casado" onclick="clicar()"> Casadíssimo</p><br>
+            </div>
+            <div class="div_r2">
+                <p id="errado" onclick="clicarErrado()">Solteiro</p> <br>
+            </div>
+            <div class="div_r3">
+                <p id="errado">Namorando</p><br>
+            </div>
+            <div class="div_r4">
+                <p id="errado">Viúvo</p><br>
+            </div>
+        </div>
+
+        <div class="respostas"> 
+            <div class="resposta_errar"> ERRAR</div>
+            <div class="resposta_parar"> PARAR </div>
+            <div class="resposta_acertar">ACERTAR</div>
         </div>
 
 
@@ -30,10 +43,17 @@
 
     <script>
 
-            function clicar () {
-                var estadoCivil =window.document.getElementById('casado')
-                estadoCivil.innerText = 'Tava lendo outras opções porque amadoh?'
-            }
+        function clicar() {
+            var estadoCivil = window.document.getElementById('casado')
+            estadoCivil.innerText = 'Tava lendo outras opções porque amadoh?'
+
+        }
+
+        function clicarErrado() {
+            var estadoErrado = window.document.getElementById('errado')
+            estadoErrado.innerText = 'tá maluco?'
+        }
+
     </script>
 </body>
 
