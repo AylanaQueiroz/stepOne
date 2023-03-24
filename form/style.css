@@ -1,3 +1,9 @@
+body {
+    background-color: #FFDEB9;
+   color: #7149C6; 
+   
+}
+
 .q1 {
     background-color: #7149C6;
     height: 500px;
@@ -12,9 +18,9 @@
     margin-left: 80px;
     display: inline-block;
     margin-bottom: 30px;
-    margin-top:30px;
+    margin-top: 30px;
     font-size: 20px;
-    
+
 }
 
 h1 {
@@ -24,12 +30,12 @@ h1 {
     border-radius: 30px;
     text-align: center;
     color: white;
-   
+
 }
 
-.div_r1  {
+.div_r1 {
     margin-top: 20px;
-    background-color:  #FC2947;
+    background-color: #FC2947;
     border-radius: 10px;
     color: white;
     font-family: 'DM Sans', sans-serif;
@@ -41,7 +47,7 @@ h1 {
 
 .div_r2 {
     margin-top: 20px;
-    background-color:  #FC2947;
+    background-color: #FC2947;
     border-radius: 10px;
     color: white;
     font-family: 'DM Sans', sans-serif;
@@ -53,7 +59,7 @@ h1 {
 
 .div_r3 {
     margin-top: 20px;
-    background-color:  #FC2947;
+    background-color: #FC2947;
     border-radius: 10px;
     color: white;
     font-family: 'DM Sans', sans-serif;
@@ -66,7 +72,7 @@ h1 {
 
 .div_r4 {
     margin-top: 20px;
-    background-color:  #FC2947;
+    background-color: #FC2947;
     border-radius: 10px;
     color: white;
     font-family: 'DM Sans', sans-serif;
@@ -79,30 +85,39 @@ h1 {
 
 
 .respostas {
-    
+
     margin-top: 50px;
-    background-color:  #FC2947;
     color: white;
-    
+    margin-left: 50px;
 }
+
 
 .resposta_errar {
     display: inline-block;
-    width: 50px;
+    width: 100px;
+    background-color: #FC2947;
     height: 50px;
+    border-radius: 10px;
+    position: relative;
+
 }
 
 .resposta_parar {
-    
+
     display: inline-block;
-    width: 50px;
+    width: 100px;
+    background-color: #FC2947;
     height: 50px;
+    border-radius: 10px;
+
 }
 
-.resposta.acertar {
+.resposta_acertar {
 
     display: inline-block;
-    width: 50px;
+    width: 100px;
+    background-color: #FC2947;
     height: 50px;
+    border-radius: 10px;
 
 }

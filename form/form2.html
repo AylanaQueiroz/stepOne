@@ -22,23 +22,21 @@
                 <p id="casado" onclick="clicar()"> Casadíssimo</p><br>
             </div>
             <div class="div_r2">
-                <p id="errado" onclick="clicarErrado()">Solteiro</p> <br>
+                <p id="errado" onmouseenter="clicarErrado()">Solteiro</p> <br>
             </div>
             <div class="div_r3">
-                <p id="errado">Namorando</p><br>
+                <p id="errado_2" onmouseenter="clicarErrado_2()">Namorando</p><br>
             </div>
             <div class="div_r4">
-                <p id="errado">Viúvo</p><br>
+                <p id="errado_3">Viúvo</p><br>
             </div>
         </div>
-
-        <div class="respostas"> 
+        <div class="respostas">
             <div class="resposta_errar"> ERRAR</div>
             <div class="resposta_parar"> PARAR </div>
-            <div class="resposta_acertar">ACERTAR</div>
+            <div id="teste" class="resposta_acertar">ACERTAR</div>
         </div>
-
-
+        <button> <a href="file:///C:/Users/user/workspace/stepOne/form/pergunta2.html">Próxima pergunta</a></button>
     </div>
 
     <script>
@@ -47,10 +45,17 @@
             var estadoCivil = window.document.getElementById('casado')
             estadoCivil.innerText = 'Tava lendo outras opções porque amadoh?'
 
+            estadoCivil.style.background = '#FE6244'
         }
 
         function clicarErrado() {
             var estadoErrado = window.document.getElementById('errado')
+            estadoErrado.innerText = 'tá maluco?'
+        }
+
+
+        function clicarErrado_2() {
+            var estadoErrado = window.document.getElementById('errado_2')
             estadoErrado.innerText = 'tá maluco?'
         }
 
