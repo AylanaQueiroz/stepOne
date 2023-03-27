@@ -1,1 +1,25 @@
-style2.css
+body {
+    background-color: #FFDEB9;
+
+}
+
+.main {
+    background-color: #7149C6;
+    height: 500px;
+    width: 400px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 30px;
+    list-style: none;
+    
+}
+
+h1 {
+    background-color: #FC2947;
+    height: 60px;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+}
+
+
