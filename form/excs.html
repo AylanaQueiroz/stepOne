@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+ <h1> Exercício sobre Nacionalidade</h1>
+
+ Em que país você mora? <input type="text" id="campo_texto"> 
+ <input type="button" value="Verificar Nacionalidade" onclick="verificar()">
+
+ <div id="nacionalidade">
+
+ </div>
+
+ 
+
+
+    <script>
+        
+         function verificar () {
+            var campo = document.querySelector ('#campo_texto')
+            var resposta = document.querySelector ('#nacionalidade')
+            var textoconvertido= String(campo.value)
+            resposta.innerHTML =  'Sua nacionalidade é' + textoconvertido
+
+            if (textoconvertido = 'Brasil' ){
+
+                nacionalidade.innerHTML =  'Você é brasileiro (a)'
+            }
+           
+
+         }
+
+
+
+
+    </script>
+</body>
+
+</html>
