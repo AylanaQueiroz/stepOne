@@ -31,36 +31,46 @@
             </li>
         </form>
     </div>
-    
 
-    
-        ERRAR
-         PARAR 
-        ACERTAR
-    
+
+
+    ERRAR
+    PARAR
+    ACERTAR
+
     <button> <a>Próxima pergunta</a></button>
 
 
 
-     <h2>Sistema de multas</h1>
-     Velocidade do carro <input type="number" name="txtvel" id="txtvel"> Km/h
-     <input type="button" value="Verificar" onclick=calcular()>
-    <script>
-            
+    <h2>Sistema de multas</h1>
+        Velocidade do carro <input type="number" name="txtvel" id="txtvel"> Km/h
+        <input type="button" value="Verificar" onclick=calcular()>
+        <div id="res">
 
-        var txtv = document.querySelector('#txtvel')
+        </div>
+        <script>
 
-        if (txt1 > 80) {
+            function calcular() {
 
-            console.log ("você ultrapassou o limite")
-        
-        } else {
-         console.log("Limite respeitado") 
-        }
-    
+                var txtvel = document.querySelector('#txtvel')
+                var res = document.querySelector('#res')
+                var vel = Number(txtvel.value)
+                res.innerHTML = 'Sua velocidade é de ' + vel + ' km/h' 
+
+                if (vel >60) {
+                    res.innerHTML = 'Você está multado por excesso de velocidade'
+
+                } 
+                
+
+            }
 
 
-    </script>
+
+
+
+
+        </script>
 </body>
 
 </html>
