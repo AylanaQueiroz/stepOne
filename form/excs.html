@@ -9,20 +9,21 @@
 </head>
 
 <body>
- <h1> Exercício sobre Nacionalidade</h1>
+    <h1> Exercício sobre Nacionalidade</h1>
 
- Em que país você mora? <input type="text" id="campo_texto"> 
- <input type="button" value="Verificar Nacionalidade" onclick="verificar()">
+    Em que país você mora? <input type="text" id="campo_texto">
+    <input type="button" value="Verificar Nacionalidade" onclick="verificar()">
 
- <div id="nacionalidade">
+    <div id="nacionalidade">
 
- </div>
+    </div>
 
- 
- <h1>Exercício sobre horário</h1>
+
+    <h1>Exercício sobre horário</h1>
 
 
     <script>
+        /*
         
          function verificar () {
             var campo = document.querySelector ('#campo_texto')
@@ -58,8 +59,39 @@
 
             console.log ('boa noite')
 
-    
-         
+        */
+
+        var agora = new Date()
+        var diaDaSemana = agora.getDay()
+        diaDaSemana=4
+
+        switch (diaDaSemana) {
+            case 0:
+                console.log('Domingo')
+                break
+            case 1:
+                console.log('segunda-feira')
+                break
+            case 2:
+                console.log('terça-feira')
+                break
+            case 3:
+                console.log('quarta-feira')
+                break
+            case 4:
+                console.log('quinta-feira')
+                break
+            case 5:
+                console.log('sexta-feira')
+                break
+            case 6:
+                console.log('sábado')
+            default:
+                console.log('ERRO! Dia inválido')
+                break
+        }
+
+
 
 
 
