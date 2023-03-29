@@ -29,9 +29,11 @@
             var textoconvertido= String(campo.value)
             resposta.innerHTML =  'Sua nacionalidade é' + textoconvertido
 
-            if (textoconvertido = 'Brasil' ){
+            if (textoconvertido == 'Brasil' ){
 
                 nacionalidade.innerHTML =  'Você é brasileiro (a)'
+            } else {
+                (nacionalidade.innerHTML =  'Você é estrangeiro')
             }
            
 
