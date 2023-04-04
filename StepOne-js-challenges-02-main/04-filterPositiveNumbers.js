@@ -15,9 +15,19 @@ filterPositiveNumbers([1, -2, 0, 5, 8, -3]);
 
 
 
+var theArray = [1, -2, 0, 5, 8, -3]
+var newArray= [];
 
 
+ for (var i=0; i<theArray.length; i++) {
+    
+      if (theArray[i] > 0){
+           newArray[i] = (theArray[i])
+           console.log (newArray[i])
+      }
+ }
 
+ console.log(newArray)
 
 
 
