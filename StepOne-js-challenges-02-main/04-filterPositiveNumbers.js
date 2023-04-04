@@ -6,12 +6,10 @@
 // Exemplo:
 // [1, -2, 0, 5, 8, -3] -> [1, 0, 5, 8]
 
-function filterPositiveNumbers(array) {
-    console.log("complete com o código aqui! :)");
-}
 
 
-filterPositiveNumbers([1, -2, 0, 5, 8, -3]);
+
+
 
 
 
@@ -20,17 +18,19 @@ var newArray= [];
 
 
  for (var i=0; i<theArray.length; i++) {
-    
-      if (theArray[i] > 0){
-           newArray[i] = (theArray[i])
-           console.log (newArray[i])
+     
+      if (theArray[i] >= 0){
+           newArray.push(theArray[i])
+           
       }
  }
 
- console.log(newArray)
+ 
+ console.log (newArray)
+ 
 
 
-
+/*
 
 // ________________________ TEST ________________________
 console.log('TEST:')
@@ -43,3 +43,4 @@ if (compareArrays(filterPositiveNumbers([1, -2, 0, 5, 8, -3]), [1, 0, 5, 8])) {
     console.log("❌ failed");
 }
 // ________________________ TEST ________________________
+*/
