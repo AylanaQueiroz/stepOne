@@ -15,7 +15,7 @@
 // "10 x 6 = 60";
 
 
-/*
+
 
 function table(number) {
     console.log("complete com o código aqui! :)");

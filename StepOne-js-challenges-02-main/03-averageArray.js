@@ -7,11 +7,32 @@
 
 // DICA: você vai precisar usar o length para resolver esse desafio!
 
-const exampleArray = [23, 14, 5, 300, 2];
+var exampleArray = [23, 14, 5, 300, 2];
 
-function averageArray(array) {
-    console.log("complete com o código aqui! :)");
+var soma = 0; 
+
+var total =0;
+
+
+
+
+
+for(var i=0; i<exampleArray.length; i++) {
+
+    soma += exampleArray[i]
+    console.log(soma)
 }
+
+
+console.log(soma)
+total = soma/exampleArray.length;
+
+console.log(total)
+
+
+
+
+
 
 
 
