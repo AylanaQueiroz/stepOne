@@ -1,0 +1,22 @@
+body {
+    background-color: #FFDEB9;
+    color: #7149C6;
+}
+
+
+section {
+    background-color: white;
+    width: 500px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    left: 400px;
+    top: 100px;
+    position: relative;
+    text-align: center;
+    
+}
+
+p {
+    font-size: 30px;
+}
