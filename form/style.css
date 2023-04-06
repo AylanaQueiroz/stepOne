@@ -1,18 +1,20 @@
 body {
     background-color: #FFDEB9;
-   color: #7149C6; 
-   
+ 
 }
 
-.q1 {
+section {
+    margin: auto;
     background-color: #7149C6;
     height: 500px;
     width: 400px;
-    margin: auto;
     border-radius: 30px;
-    margin-top: 40px;
     font-family: 'DM Sans', sans-serif;
+    position: relative;
+    left: 450px;
+    top: 70px;
 }
+
 
 .div_h1 {
     margin-left: 80px;
@@ -20,20 +22,16 @@ body {
     margin-bottom: 30px;
     margin-top: 30px;
     font-size: 20px;
-
-}
-
-h1 {
     background-color: #FC2947;
     height: 60px;
     width: 250px;
     border-radius: 30px;
     text-align: center;
     color: white;
-
 }
 
-.div_r1 {
+.div_p1 {
+
     margin-top: 20px;
     background-color: #FC2947;
     border-radius: 10px;
@@ -43,46 +41,8 @@ h1 {
     margin-left: 50px;
     text-align: center;
     padding-top: 10px;
+
 }
-
-.div_r2 {
-    margin-top: 20px;
-    background-color: #FC2947;
-    border-radius: 10px;
-    color: white;
-    font-family: 'DM Sans', sans-serif;
-    width: 280px;
-    margin-left: 50px;
-    text-align: center;
-    padding-top: 10px;
-}
-
-.div_r3 {
-    margin-top: 20px;
-    background-color: #FC2947;
-    border-radius: 10px;
-    color: white;
-    font-family: 'DM Sans', sans-serif;
-    width: 280px;
-    margin-left: 50px;
-    text-align: center;
-    padding-top: 10px;
-}
-
-
-.div_r4 {
-    margin-top: 20px;
-    background-color: #FC2947;
-    border-radius: 10px;
-    color: white;
-    font-family: 'DM Sans', sans-serif;
-    width: 280px;
-    margin-left: 50px;
-    text-align: center;
-    padding-top: 10px;
-}
-
-
 
 .respostas {
 
@@ -90,7 +50,6 @@ h1 {
     color: white;
     margin-left: 50px;
 }
-
 
 .resposta_errar {
     display: inline-block;
@@ -102,22 +61,3 @@ h1 {
 
 }
 
-.resposta_parar {
-
-    display: inline-block;
-    width: 100px;
-    background-color: #FC2947;
-    height: 50px;
-    border-radius: 10px;
-
-}
-
-.resposta_acertar {
-
-    display: inline-block;
-    width: 100px;
-    background-color: #FC2947;
-    height: 50px;
-    border-radius: 10px;
-
-}
