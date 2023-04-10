@@ -17,7 +17,7 @@
             <div class="div_h1">
                 <h1> Qual seu estado civil?</h1>
             </div>
-            <div class="div_p1">
+            <div id="casado" class="div_p1">
                 <p id="casado" onclick="clicar()"> Casadíssimo</p><br>
             </div>
             <div class="div_p1">
@@ -31,9 +31,9 @@
             </div>
         </div>
         <div class="respostas">
-            <div class="resposta_errar"> ERRAR</div>
-            <div class="resposta_errar"> PARAR </div>
-            <div id="teste" class="resposta_errar">ACERTAR</div>
+            <div class="resposta_errar"> ERRAR<br> Deve R$30</div>
+            <div class="resposta_errar"> PARAR <br>Ganha 0 reais</div>
+            <div class="resposta_errar">ACERTAR<br> Ganha 10 reais</div>
         </div>
         <button> <a href="file:///C:/Users/user/workspace/stepOne/form/pergunta2.html">Próxima pergunta</a></button>
         </div>
@@ -43,9 +43,9 @@
 
         function clicar() {
             var estadoCivil = window.document.getElementById('casado')
-            estadoCivil.innerText = 'Tava lendo outras opções porque amadoh?'
+            estadoCivil.innerText = 'Tava lendo outras opções porque amadoh?rumm'
 
-            estadoCivil.style.background = '#FE6244'
+            estadoCivil.style.background = 'black'
         }
 
         function clicarErrado() {
