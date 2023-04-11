@@ -18,7 +18,7 @@
                 <h1> Qual seu estado civil?</h1>
             </div>
             <div id="casado" class="div_p1">
-                <p id="casado" onclick="clicar()"> Casadíssimo</p><br>
+                <p id="casado" onclick="acerto()"> Casadíssimo</p><br>
             </div>
             <div class="div_p1">
                 <p id="errado" onmouseenter="clicarErrado()">Solteiro</p> <br>
@@ -27,13 +27,13 @@
                 <p id="errado_2" onmouseenter="clicarErrado_2()">Namorando</p><br>
             </div>
             <div class="div_p1">
-                <p id="errado_3">Viúvo</p><br>
+                <p id="errado_3" onmouseenter="clicar()">Viúvo</p><br>
             </div>
         </div>
         <div class="respostas">
-            <div class="resposta_errar"> ERRAR<br> Deve R$30</div>
-            <div class="resposta_errar"> PARAR <br>Ganha 0 reais</div>
-            <div class="resposta_errar">ACERTAR<br> Ganha 10 reais</div>
+            <div id="wrong" class="resposta_errar"> ERRAR<br> Deve R$30</div>
+            <div  class="resposta_errar"> PARAR <br>Ganha 0 reais</div>
+            <div id='ok'class="resposta_errar">ACERTAR<br> Ganha 10 reais</div>
         </div>
         <button> <a href="file:///C:/Users/user/workspace/stepOne/form/pergunta2.html">Próxima pergunta</a></button>
         </div>
@@ -42,21 +42,29 @@
 
 
         function clicar() {
-            var estadoCivil = window.document.getElementById('casado')
+            var estadoCivil = window.document.getElementById('errado_3')
             estadoCivil.innerText = 'Tava lendo outras opções porque amadoh?rumm'
-
             estadoCivil.style.background = 'black'
+            
         }
 
         function clicarErrado() {
             var estadoErrado = window.document.getElementById('errado')
             estadoErrado.innerText = 'tá maluco?'
+            
         }
 
 
         function clicarErrado_2() {
             var estadoErrado = window.document.getElementById('errado_2')
             estadoErrado.innerText = 'tá maluco?'
+        }
+
+        function acerto () {
+            var estadoCivil = window.document.getElementById('casado')
+            var respostaCerta = window.document.getElementById('ok')
+            respostaCerta.style.backgroundColor='green'
+
         }
 
     </script>
