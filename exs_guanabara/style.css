@@ -20,7 +20,8 @@ section {
     text-align: center;
 }
 .manha {
-    width: 500px;
+    width: 250px;
+    border-radius: 50%;
 }
 
 
