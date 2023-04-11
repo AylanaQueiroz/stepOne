@@ -1,25 +1,75 @@
 body {
     background-color: #FFDEB9;
-
 }
 
-.main {
-    background-color: #7149C6;
-    height: 500px;
-    width: 400px;
+section {
     margin: auto;
-    margin-top: 40px;
+    background-color: #7149C6;
+    height: 540px;
+    width: 400px;
     border-radius: 30px;
-    list-style: none;
-    
+    font-family: 'DM Sans', sans-serif;
+    position: relative;
+    left: 450px;
+    top: 70px;
+    box-shadow: 8px 5px 5px 10px rgba(0, 0, 0, 0.295);
 }
 
-h1 {
+.div_h1 {
+    margin-left: 80px;
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 20px;
     background-color: #FC2947;
     height: 60px;
+    width: 260px;
     border-radius: 30px;
     text-align: center;
     color: white;
 }
 
+.div_p1 {
+    margin-top: 20px;
+    background-color: #FC2947;
+    border-radius: 10px;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    width: 230px;
+    margin-left: 50px;
+    padding-top: 10px;
+}
 
+.respostas {
+    margin-top: 50px;
+    color: white;
+    margin-left: 50px;
+}
+
+.resposta_errar {
+    display: inline-block;
+    width: 100px;
+    background-color: #FC2947;
+    height: 50px;
+    border-radius: 10px;
+    position: relative;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 250px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: white
+}
+
+input {
+    display: inline;
+}
+
+p {
+    display: inline;
+}

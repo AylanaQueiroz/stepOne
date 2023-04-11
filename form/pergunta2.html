@@ -10,67 +10,57 @@
 </head>
 
 <body>
-    <div class="main">
-        <form>
-            <h1> Quando nos comnhecemos como nos cumprimentamos?</h1>
-            <li>
-                <input type="checkbox" name="a" id="">
+    <section>
+        <div>
+            <div class="div_h1">
+                <h1> Quando nos conhecemos como nos cumprimentamos?</h1>
+            </div>
+            <div class="div_p1">
+                <input type="checkbox" name="a" id="chec">
                 <p> Aperto de mão</p><br>
-            </li>
-            <li>
+            </div>
+            <div class="div_p1">
                 <input type="checkbox" name="b" id="">
                 <p>Beijo no rosto</p> <br>
-            </li>
-            <li>
+            </div>
+            <div class="div_p1">
                 <input type="checkbox" name="c" id="abraco">
                 <p>Abraço</p><br>
-            </li>
-            <li>
+            </div>
+            <div class="div_p1">
                 <input type="checkbox" name="d" id="xx">
                 <p>Acenando</p><br>
-            </li>
-        </form>
-    </div>
-
-
-
-    ERRAR
-    PARAR
-    ACERTAR
-
-    <button> <a>Próxima pergunta</a></button>
-
-
-
-    <h2>Sistema de multas</h1>
-        Velocidade do carro <input type="number" name="txtvel" id="txtvel"> Km/h
-        <input type="button" value="Verificar" onclick=calcular()>
-        <div id="res">
-
+            </div>
         </div>
-        <script>
+        <div class="respostas">
+            <div class="resposta_errar"> ERRAR <br> Ganha R$0</div>
+            <div onclick="desistir()" id="stop" class="resposta_errar">PARAR <br> Ganha R$10</div>
+            <div class="resposta_errar">ACERTAR Ganha R$20</div>
+        </div>
+        <button> PRÓXIMA PERGUNTA</button>
+    </section>
+    <script>
 
-            function calcular() {
-
-                var txtvel = document.querySelector('#txtvel')
-                var res = document.querySelector('#res')
-                var vel = Number(txtvel.value)
-                res.innerHTML = 'Sua velocidade é de ' + vel + ' km/h' 
-
-                if (vel >60) {
-                    res.innerHTML = 'Você está multado por excesso de velocidade'
-
-                } 
-                
-
-            }
+        function desistir() {
+            var parar = window.document.getElementById('stop')
+            parar.style.backgroundColor = 'yellow'
+            
+        }
 
 
 
 
 
 
-        </script>
+
+
+
+
+
+
+
+
+    </script>
 </body>
 
 </html>
