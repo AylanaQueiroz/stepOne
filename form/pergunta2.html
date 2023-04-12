@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Segundo formulário</title>
+    <title>Show do JohnJohn</title>
     <link rel="stylesheet" href=style2.css>
     <link rel="stylesheet" href="reset.css">
 </head>
@@ -15,40 +15,66 @@
             <div class="div_h1">
                 <h1> Quando nos conhecemos como nos cumprimentamos?</h1>
             </div>
-            <div class="div_p1">
-                <input type="checkbox" name="a" id="chec">
+            <div id="chec" class="div_p1">
+                <input onclick="errar()" type="checkbox" name="a" id="chec">
                 <p> Aperto de mão</p><br>
             </div>
-            <div class="div_p1">
-                <input type="checkbox" name="b" id="">
+            <div id="beijo" class="div_p1">
+                <input onclick="errar2()" type="checkbox" name="b" id="beijo">
                 <p>Beijo no rosto</p> <br>
             </div>
-            <div class="div_p1">
-                <input type="checkbox" name="c" id="abraco">
+            <div id="abraco" class="div_p1">
+                <input onclick="acertar()" type="checkbox" name="c" id="abraco">
                 <p>Abraço</p><br>
             </div>
-            <div class="div_p1">
-                <input type="checkbox" name="d" id="xx">
+            <div id="acenando" class="div_p1">
+                <input onclick="errar3()" type="checkbox" name="d" id="acenando">
                 <p>Acenando</p><br>
             </div>
         </div>
         <div class="respostas">
-            <div class="resposta_errar"> ERRAR <br> Ganha R$0</div>
-            <div onclick="desistir()" id="stop" class="resposta_errar">PARAR <br> Ganha R$10</div>
-            <div class="resposta_errar">ACERTAR Ganha R$20</div>
+            <div id="errou"class="resposta_errar"> ERRAR <br> Ganha R$0</div>
+            <div onclick="desistir()" id="stop" class="resposta_errar">PARAR <br> Ganha R$20</div>
+            <div id="ok" class="resposta_errar">ACERTAR Ganha R$40</div>
         </div>
-        <button> PRÓXIMA PERGUNTA</button>
+        <button> <a href="file:///C:/Users/user/workspace/stepOne/form/pergunta3.html"> PRÓXIMA PERGUNTA</a></button>
     </section>
     <script>
 
         function desistir() {
             var parar = window.document.getElementById('stop')
-            parar.style.backgroundColor = 'yellow'
-            
+            parar.style.backgroundColor = 'yellow'  
         }
 
 
+        function errar() {
 
+            var opcaoErrada1= window.document.getElementById('chec')
+           
+           // var opcaoErrada3= window.document.getElementById('acenando')
+            var errou= window.document.getElementById('errou')
+            opcaoErrada1.style.backgroundColor='wheat'
+            errou.style.backgroundColor='red'
+        }
+
+        function errar2(){
+            var opcaoErrada2= window.document.getElementById('beijo')
+            opcaoErrada2.style.backgroundColor='wheat'
+            errou.style.backgroundColor='red'
+        }
+
+        function errar3() {
+            var opcaoErrada3= window.document.getElementById('acenando')
+            opcaoErrada3.style.backgroundColor='wheat'
+            errou.style.backgroundColor='red'
+        }
+
+        function acertar () {
+            var correta =  window.document.getElementById('abraco')
+            var acerto=window.document.getElementById('ok')
+            correta.style.backgroundColor='wheat'
+            acerto.style.backgroundColor='green'
+        }
 
 
 

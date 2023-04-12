@@ -32,11 +32,10 @@
         </div>
         <div class="respostas">
             <div id="wrong" class="resposta_errar"> ERRAR<br> Deve R$30</div>
-            <div  class="resposta_errar"> PARAR <br>Ganha 0 reais</div>
-            <div id='ok'class="resposta_errar">ACERTAR<br> Ganha 10 reais</div>
+            <div class="resposta_errar"> PARAR <br>Ganha 0 reais</div>
+            <div id='ok' class="resposta_errar">ACERTAR<br> Ganha 20 reais</div>
         </div>
         <button> <a href="file:///C:/Users/user/workspace/stepOne/form/pergunta2.html">Próxima pergunta</a></button>
-        
     </section>
     <script>
 
@@ -45,13 +44,13 @@
             var estadoCivil = window.document.getElementById('errado_3')
             estadoCivil.innerText = 'Tava lendo outras opções porque amadoh?rumm'
             estadoCivil.style.background = 'black'
-            
+
         }
 
         function clicarErrado() {
             var estadoErrado = window.document.getElementById('errado')
             estadoErrado.innerText = 'tá maluco?'
-            
+
         }
 
 
@@ -60,10 +59,11 @@
             estadoErrado.innerText = 'tá maluco?'
         }
 
-        function acerto () {
+        function acerto() {
             var estadoCivil = window.document.getElementById('casado')
             var respostaCerta = window.document.getElementById('ok')
-            respostaCerta.style.backgroundColor='green'
+            respostaCerta.style.backgroundColor = 'green'
+            estadoCivil.style.backgroundColor='wheat'
 
         }
 

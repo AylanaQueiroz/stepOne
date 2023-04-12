@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show do JohnJohn</title>
+    <link rel="stylesheet" href=style3.css>
+    <link rel="stylesheet" href="reset.css">
+</head>
+
+<body>
+    <section>
+        <div>
+            <div class="div_h1">
+                <h1> Quantos Kgs eu pesava quando nos conhecemos?</h1>
+            </div>
+            <div class="div_p1">
+                <input id="peso" type="text"> Kgs
+                <input onclick="validarPeso()" id="enviar" type="button" value="Arrisskkkkkcar">
+            </div>
+        </div>
+        <div class="respostas">
+            <div class="resposta_errar">ERRAR <br>Ganha</div>
+            <div class="resposta_errar"> PARAR <br> Ganha</div>
+            <div class="resposta_errar"> ACERTAR <br> Ganha</div>
+        </div>
+        <button>PRÓXIMA PERGUNTA</button>
+    </section>
+    <script>
+
+        function validarPeso(){
+        var resposta = window.document.getElementById('peso')
+
+        if (resposta = 47) {
+            console.log('acertou')
+        } 
+
+    }
+    </script>
+</body>
+
+</html>

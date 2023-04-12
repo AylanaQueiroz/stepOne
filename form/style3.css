@@ -31,8 +31,6 @@ section {
 
 .div_p1 {
     margin-top: 20px;
-    background-color: #FC2947;
-    border-radius: 10px;
     color: white;
     font-family: 'DM Sans', sans-serif;
     width: 230px;
@@ -40,8 +38,18 @@ section {
     padding-top: 10px;
 }
 
+#enviar {
+
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    background-color: white;
+    font-weight: bold;
+}
+
 .respostas {
-    margin-top: 50px;
+    margin-top: 90px;
     color: white;
     margin-left: 50px;
 }
@@ -59,22 +67,9 @@ button {
     width: 100px;
     height: 50px;
     border-radius: 15px;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: 250px;
     text-transform: uppercase;
     font-weight: bold;
     background-color: white
 }
-
-input {
-    display: inline;
-}
-
-p {
-    display: inline;
-}
-
-a {
-    text-decoration: none;
-    color:#FC2947
- }
