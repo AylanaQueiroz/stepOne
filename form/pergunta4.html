@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show do JohnJohn</title>
+    <link rel="stylesheet" href=style2.css>
+    <link rel="stylesheet" href="reset.css">
+</head>
+
+<body>
+    <section>
+        <div>
+            <div class="div_h1">
+                <h1> Qual foi nosso primeiro rolê juntos?</h1>
+            </div>
+            <div onclick="errou()" id="erro1" class="div_p1"> Shopping</div>
+            <div onclick="errou2()" id="erro2" class="div_p1">Parque Vaca Brava</div>
+            <div onclick="acertou()"id="ok" class="div_p1"> Camelódromo</div>
+            <div onclick="errou3()" id="erro3" class="div_p1">Clube</div>
+        </div>
+        <div class="respostas">
+            <div id="wrong" class="resposta_errar">ERRAR <br> Ganha R$20</div>
+            <div onclick="pare()" id="stop" class="resposta_errar"> PARAR <br> Ganha R$60</div>
+            <div id= 'certo'class="resposta_errar"> ACERTAR <br> Ganha R$80</div>
+        </div>
+        <button><a> PRÓXIMA PERGUNTA </a></button>
+    </section>
+    <script>
+
+        function pare(){
+        var parar = window.document.getElementById('stop')
+        parar.style.backgroundColor = 'yellow'  
+        }
+
+        function acertou(){
+            var correta = document.getElementById ('ok')
+            var certo = document.getElementById('certo')
+            correta.style.backgroundColor='wheat'
+            certo.style.backgroundColor='green'
+        }
+
+        function errou() {
+            var errada =  document.getElementById('erro1')
+            var erro =  document.getElementById('wrong')
+            errada.style.backgroundColor='wheat'
+            erro.style.backgroundColor = 'red'
+        }
+
+        function errou2(){
+            var errada2= document.getElementById('erro2')
+            var erro2 =  document.getElementById('wrong')
+            errada2.style.backgroundColor='wheat'
+            erro2.style.backgroundColor = 'red'
+        }
+
+        function errou3(){
+            var errada3= document.getElementById('erro3')
+            var erro3 =  document.getElementById('wrong')
+            errada3.style.backgroundColor='wheat'
+            erro3.style.backgroundColor = 'red'
+        }
+    </script>
+</body>
+
+</html>

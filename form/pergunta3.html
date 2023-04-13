@@ -23,25 +23,28 @@
         </div>
         <div id='res' class="resultado"> </div>
         <div class="respostas">
-            <div id="wrong" class="resposta_errar">ERRAR <br>Ganha</div>
-            <div class="resposta_errar"> PARAR <br> Ganha</div>
-            <div id="ok" class="resposta_errar"> ACERTAR <br> Ganha</div>
+            <div id="wrong" class="resposta_errar">ERRAR <br>Ganha R$20</div>
+            <div class="resposta_errar"> PARAR <br> Ganha R$40</div>
+            <div id="ok" class="resposta_errar"> ACERTAR <br> Ganha R$60</div>
         </div>
-        <button>PRÓXIMA PERGUNTA</button>
+        <button> <a href="file:///C:/Users/user/workspace/stepOne/form/pergunta4.html">PRÓXIMA PERGUNTA</a></button>
         <div id='res' class="resultado"> </div>
     </section>
     <script>
 
 
         function validarPeso() {
+            var validar= document.getElementById('enviar')
             var peso = document.getElementById('peso')
             var calculoPeso = Number(peso.value)
             var resultado = document.getElementById('res')
             resultado.innerHTML = 'Seu palpite é : ' + calculoPeso 
+            validar.style.backgroundColor='gray'
 
 
             if (calculoPeso == 47 || calculoPeso ==55 ) {
             var acerto =  window.document.getElementById('ok')
+            
             acerto.style.backgroundColor='green'
 
         } else {
