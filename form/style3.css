@@ -71,5 +71,22 @@ button {
     margin-left: 250px;
     text-transform: uppercase;
     font-weight: bold;
-    background-color: white
+    
 }
+
+a {
+    text-decoration: none;
+    color:#FC2947
+ }
+
+ .resultado {
+
+    margin-top: 35px;
+    margin-left: 90px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+    
+  
+
+ }

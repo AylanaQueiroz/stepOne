@@ -17,27 +17,41 @@
                 <h1> Quantos Kgs eu pesava quando nos conhecemos?</h1>
             </div>
             <div class="div_p1">
-                <input id="peso" type="text"> Kgs
+                <input id="peso" type="number"> Kgs
                 <input onclick="validarPeso()" id="enviar" type="button" value="Arrisskkkkkcar">
             </div>
         </div>
+        <div id='res' class="resultado"> </div>
         <div class="respostas">
-            <div class="resposta_errar">ERRAR <br>Ganha</div>
+            <div id="wrong" class="resposta_errar">ERRAR <br>Ganha</div>
             <div class="resposta_errar"> PARAR <br> Ganha</div>
-            <div class="resposta_errar"> ACERTAR <br> Ganha</div>
+            <div id="ok" class="resposta_errar"> ACERTAR <br> Ganha</div>
         </div>
         <button>PRÓXIMA PERGUNTA</button>
+        <div id='res' class="resultado"> </div>
     </section>
     <script>
 
-        function validarPeso(){
-        var resposta = window.document.getElementById('peso')
 
-        if (resposta = 47) {
-            console.log('acertou')
-        } 
+        function validarPeso() {
+            var peso = document.getElementById('peso')
+            var calculoPeso = Number(peso.value)
+            var resultado = document.getElementById('res')
+            resultado.innerHTML = 'Seu palpite é : ' + calculoPeso 
 
+
+            if (calculoPeso == 47 || calculoPeso ==55 ) {
+            var acerto =  window.document.getElementById('ok')
+            acerto.style.backgroundColor='green'
+
+        } else {
+            var erro = window.document.getElementById('wrong')
+            erro.style.backgroundColor='red'
+        }
     }
+       
+
+        
     </script>
 </body>
 
