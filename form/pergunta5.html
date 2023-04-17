@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Show do JohnJohn</title>
-    <link rel="stylesheet" href=style2.css>
+    <link rel="stylesheet" href=style5.css>
     <link rel="stylesheet" href="reset.css">
 </head>
 
@@ -16,17 +16,71 @@
             <div class="div_h1">
                 <h1> Com que frequência você comete vacilos?</h1>
             </div>
-            <div class="div_p1"> Diariamente</div>
-            <div class="div_p1"> A cada 24 horas</div>
-            <div class="div_p1"> Mais frequente do que poderia-se mensurar</div>
-            <div class="div_p1">Tanto quanto as estrelas do céu, e as areias da praia</div>
+            <div id="correta1" onclick="acerto1()" class="div_p1"> <a
+                    href="file:///C:/Users/user/workspace/stepOne/form/acertar.html"> Diariamente </a></div>
+            <div id="correta2" onclick="acerto2()" class="div_p1"> <a
+                    href="file:///C:/Users/user/workspace/stepOne/form/acertar.html"> A cada 24 horas </a></div>
+            <div id="correta3" onclick="acerto3()" class="div_p1"> <a
+                    href="file:///C:/Users/user/workspace/stepOne/form/acertar.html"> Mais frequente do que poderia-se
+                    mensurar </a></div>
+            <div id="correta4" onclick="acerto4()" class="div_p1"> <a
+                    href="file:///C:/Users/user/workspace/stepOne/form/acertar.html"> Tanto quanto as estrelas do céu, e
+                    as areias da praia"</a></div>
+            <div id="errada" onclick="error()" class="div_p1"> <a
+                    href="file:///C:/Users/user/workspace/stepOne/form/errar.html"> Raramente </a></div>
         </div>
         <div class="respostas">
-            <div class="resposta_errar">ERRAR<br> Ganha R$20</div>
-            <div class="resposta_errar">ACERTAR<br> Ganha R$100</div>
-            <div class="resposta_errar">PARAR <br> Ganha R$80</div>
+            <div id="errar" class="resposta_errar">ERRAR<br> Ganha R$20</div>
+            <div id='stop' onclick="pare()" class="resposta_errar"> <a id='anchor'
+                    href="file:///C:/Users/user/workspace/stepOne/form/parar.html">PARAR</a><br> Ganha R$80</div>
+            <div id="acertoou" class="resposta_errar">ACERTAR <br> Ganha R$80</div>
         </div>
     </section>
+    <script>
+        function pare() {
+            var parar = window.document.getElementById('stop')
+            parar.style.backgroundColor = 'yellow'
+        }
+
+        function acerto1() {
+            var correta = window.document.getElementById('correta1')
+            var acertou_1 = window.document.getElementById('acertoou')
+            correta.style.backgroundColor = 'wheat'
+            acertou_1.style.backgroundColor = 'green'
+        }
+
+        function acerto2() {
+            var correta2 = window.document.getElementById('correta2')
+            var acertou_2 = document.getElementById('acertoou')
+            correta2.style.backgroundColor = 'wheat'
+            acertou_2.style.backgroundColor = 'green'
+        }
+
+        function acerto3() {
+            var correta3 = window.document.getElementById('correta3')
+            var acertou_3 = document.getElementById('acertoou')
+            correta3.style.backgroundColor = 'wheat'
+            acertou_3.style.backgroundColor = 'green'
+        }
+
+        function acerto4() {
+            var correta4 = window.document.getElementById('correta4')
+            var acertou_4 = document.getElementById('acertoou')
+            correta4.style.backgroundColor = 'wheat'
+            acertou_4.style.backgroundColor = 'green'
+        }
+
+        function error() {
+            var errada = window.document.getElementById('errada')
+            var errar = document.getElementById('errar')
+            errada.style.backgroundColor = 'wheat'
+            errar.style.backgroundColor = 'red'
+        }
+
+
+
+
+    </script>
 </body>
 
 </html>
