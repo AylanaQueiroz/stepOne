@@ -34,22 +34,22 @@ tabuada(2)
 
 
 
-
+i=0
 
 function table (num1, num2) {
 
-    while (num2 <= 100) {
+    while (i <= num2) {
 
-        console.log ('a tabuada do '+ num1 + ' é ' + num1 + ' x '+ num2 + ' = ' + num1 * num2)
+        console.log ('a tabuada do '+ num1 + ' é ' + num1 + ' x '+ i + ' = ' + num1 * i)
 
-        num2++
+        i++
         
     }
 
 
 }
 
-table (2,4)
+table (2,100)
 
 
 
