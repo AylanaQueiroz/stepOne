@@ -15,8 +15,49 @@
 // "10 x 6 = 60";
 
 
+/*
+i=0
+
+function tabuada (num) {
+
+    while (i <= 10 ){
+
+console.log('A tabuada do ' + num + ' é ' + num + 'x' + i + '=' +  num*i )
+
+        i++
+    }
+
+}
+
+tabuada(2)
+*/
 
 
+
+
+
+function table (num1, num2) {
+
+    while (num2 <= 100) {
+
+        console.log ('a tabuada do '+ num1 + ' é ' + num1 + ' x '+ num2 + ' = ' + num1 * num2)
+
+        num2++
+        
+    }
+
+
+}
+
+table (2,4)
+
+
+
+
+
+
+
+/*
 function table(number) {
     console.log("complete com o código aqui! :)");
 }
@@ -142,4 +183,4 @@ function tabuada (w,z) {
     }
 }
 
-tabuada (4,1)
+tabuada (4,1)*/

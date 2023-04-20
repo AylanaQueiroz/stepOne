@@ -1,11 +1,22 @@
 // Faça uma função chamada justNegativeNumbers que receba um número e 
 // retorne apenas números negativos. Se o número for zero, retorne apenas zero.
 
+
+num = 3
+
 function justNegativeNumbers(num) {
-    console.log("complete com o código aqui! :)");
+    
+    if (num < 0) {
+       
+        return num 
+    } else  {
+        return num*-1 
+    }
+
+    
 }
 
-
+console.log (justNegativeNumbers(num)) 
 
 
 
