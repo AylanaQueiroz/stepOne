@@ -2,6 +2,44 @@
 // retorne apenas números negativos. Se o número for zero, retorne apenas zero.
 
 
+let num = [7, 0, 6, -8]
+let resultado = []
+
+//function justNegativeNumbers (num){
+
+for (i = 0; i < num.length; i++) {
+
+    if (num[i] <= 0) {
+
+        resultado.push(num[i])
+    }
+}
+
+
+
+
+console.log(resultado)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
 num = 3
 
 function justNegativeNumbers(num) {
@@ -31,3 +69,4 @@ if (justNegativeNumbers(exampleNumber1) === -2 && justNegativeNumbers(exampleNum
     console.log("❌ failed");
 }
 // ________________________ TEST ________________________
+*/

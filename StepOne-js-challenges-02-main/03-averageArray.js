@@ -7,7 +7,45 @@
 
 // DICA: você vai precisar usar o length para resolver esse desafio!
 
-var exampleArray = [23, 14, 5, 300, 2];
+
+
+
+var exempleArray = [23, 14, 5, 300, 2];
+
+var soma = 0
+
+var total= 0 
+
+for (i=0; i < exempleArray.length; i++) {
+
+    soma += exempleArray[i]
+
+    console.log(soma)
+
+   total= soma/exempleArray.length
+   
+   
+}
+console.log(total)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+
 
 var soma = 0; 
 
@@ -51,3 +89,4 @@ if (averageArray(exampleArray) == 68.8) {
     console.log("❌ failed");
 }
 // ________________________ TEST ________________________
+*/

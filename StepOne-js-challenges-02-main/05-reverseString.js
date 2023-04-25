@@ -14,7 +14,12 @@
 // Faça uma função chamada 'palindrome', que usa a função 'reverseString' para 
 // inverter a string e que depois valida se é uma palavra palíndroma, retornando 
 // true ou false.
-/*
+
+
+
+
+
+
 
 const exampleString = 'Gorila';
 
@@ -37,7 +42,7 @@ function palindrome(string) {
     console.log("complete com o código aqui! :)");
 }
 
-*/
+
 
 const palavra =  'aylana'
 
@@ -45,19 +50,19 @@ function inverter (string) {
 
     let palavraInvertida = '';
 
-    for (let i = string.length -1; i>=0; i--) {
+    for (let i = string.length -1; i >= 0; i--) {
 
-        palavraInvertida =  palavraInvertida + string[i]
+        palavraInvertida +=  string[i]
     }
 
     return palavraInvertida
 
 }
 
-    //inverter(palavra)
-    console.log(inverter(palavra))
+   console.log(inverter(palavra))
+    
 
-
+   
 
 
 // ________________________ TEST ________________________

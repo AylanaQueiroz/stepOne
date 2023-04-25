@@ -8,8 +8,44 @@
 
 
 
+ var exampleArray = [1, -2, 0, 5, 8, -3]
+
+ var positiveNumbers=[]
+
+ i=0 
+
+     for (i=0; i<exampleArray.length; i++) {
+
+            
+            if (exampleArray[i]>=0) {
+
+                positiveNumbers.push(exampleArray[i])
+            }
+     }
+    
+console.log(positiveNumbers)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 
 
 
@@ -30,7 +66,7 @@ var newArray= [];
  
 
 
-/*
+
 
 // ________________________ TEST ________________________
 console.log('TEST:')
