@@ -4,23 +4,24 @@
 
 const exampleArray = [-2, 0, 5, 9, 120, -60];
 
-
-
 function smallestNumber(array) {
-    
+
     let smallest = 0
+    for (let i = 0; i < array.length; i++) {
 
-    for (let i=0; i < array.length; i++){
+        const currentArrayNumber = array[i]
 
-        const currentNumber= array[i]
-
-        if (currentNumber < smallest){
-            smallest = currentNumber
+        if (currentArrayNumber < smallest) {
+            smallest = currentArrayNumber;
         }
-
-    console.log(smallest)
     }
+    return smallest
 }
+
+
+
+
+
 
 
 
