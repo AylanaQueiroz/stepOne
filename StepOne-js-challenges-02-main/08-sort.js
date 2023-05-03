@@ -3,29 +3,27 @@
 // Esse desafio foi dado em um code challenge para entrevista de emprego! :)
 
 let exampleArray = [573, 105, 13, 10, 52];
-let ordened = []
 
+function crescente (array){
+    
+    var smallest = 10
 
-function sort(array) {
+    for (i=0; i<array.length; i++) {
 
+     for (j=1; j<array.length-1; j++){
 
-    for (i = 0; i < array.length; i++) {
+        if (array[i] < array[j] )
 
-        let ordened = array[i]
+        console.log (array[i])
+     }   
+   
 
-
-        if (array[i] < ordened) {
-
-            console.log(ordened)
-        }
-
-        ordened += ordened
-        console.log(ordened)
     }
+
 
 }
 
-sort(exampleArray)
+crescente(exampleArray)
 
 /*
 // ________________________ TEST ________________________
