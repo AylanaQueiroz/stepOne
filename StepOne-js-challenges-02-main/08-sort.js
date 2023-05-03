@@ -3,14 +3,31 @@
 // Esse desafio foi dado em um code challenge para entrevista de emprego! :)
 
 let exampleArray = [573, 105, 13, 10, 52];
+let ordened = []
+
 
 function sort(array) {
-    console.log("complete com o código aqui! :)");
+
+
+    for (i = 0; i < array.length; i++) {
+
+        let ordened = array[i]
+
+
+        if (array[i] < ordened) {
+
+            console.log(ordened)
+        }
+
+        ordened += ordened
+        console.log(ordened)
+    }
+
 }
 
+sort(exampleArray)
 
-
-
+/*
 // ________________________ TEST ________________________
 console.log('TESTS:')
 function compareArrays(a, b) {
@@ -21,4 +38,4 @@ if(compareArrays(sort(exampleArray), exampleArray.sort())) {
 } else {
     console.log("❌ failed");
 }
-// ________________________ TEST ________________________
+// ________________________ TEST ________________________*/
