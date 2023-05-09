@@ -6,15 +6,18 @@ let exampleArray = [573, 105, 13, 10, 52];
 
 function crescente (array){
     
-    var smallest = 10
+    
 
     for (i=0; i<array.length; i++) {
 
-     for (j=1; j<array.length-1; j++){
+     for (j=0; j<array.length; j++){
 
-        if (array[i] < array[j] )
+        if (array[i] > array[j] ){
 
-        console.log (array[i])
+                let biggestValue= array[i];
+        }
+
+       
      }   
    
 
