@@ -4,31 +4,44 @@
 
 let exampleArray = [573, 105, 13, 10, 52];
 
-function crescente (array){
-    
-    
-
-    for (i=0; i<array.length; i++) {
-
-     for (j=0; j<array.length; j++){
-
-        if (array[i] > array[j] ){
-
-                let biggestValue= array[i];
+// i=0  j=0
+function crescente(array) {
 
 
+    for (i = 0; i < array.length; i++) {
+ 
+        console.log(i+ ' aqui i primeiro for')
+        for (j = 0; j < array.length; j++) {
+            console.log(j + ' aqui j segundo for')
+            console.log(i + ' aqui i segundo for')
+
+            //// i inicia = 573  e o j inicia = 105 ; 573 > 105 
+
+            if (array[i] > array[j]) {
+                // se 573 > 105
+                let biggestValue = array[i];
+                console.log(biggestValue + ' biggestValue')
+                // biggestValue = 573
+                array[i] = array[j]
+                console.log(array[i] + ' array[i]')
+                // array[0] = 105
+
+                array[j] = biggestValue
+                console.log(array[j] + ' array[j]')
+                // array[1] = 573
+            }
+
+            //105 573 
         }
 
-       
-     }   
-   
 
     }
-
+    return (array)
 
 }
 
-return(array)
+crescente(exampleArray)
+
 
 /*
 // ________________________ TEST ________________________
