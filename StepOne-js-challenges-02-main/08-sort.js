@@ -15,6 +15,8 @@ function crescente (array){
         if (array[i] > array[j] ){
 
                 let biggestValue= array[i];
+
+
         }
 
        
@@ -26,7 +28,7 @@ function crescente (array){
 
 }
 
-crescente(exampleArray)
+return(array)
 
 /*
 // ________________________ TEST ________________________
