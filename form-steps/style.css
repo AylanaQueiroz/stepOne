@@ -3,23 +3,74 @@ body {
 }
 
 section {
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     margin-top: 80px;
-    margin-left: 150px;
+    margin-left: 190px;
     margin-right: 150px;
     border-radius: 10px;
 }
 
 
-.navigation {
-    height: 450px;
-    width: 200px;
-    background-color: #493eff;
+.sidebar {
+    height: 585px;
+    width: 260px;
     margin-left: 15px;
-   
-    margin-bottom: 15px;
     border-radius: 10px;
-    
+    display: inline-block;
+    background-color: green;
+    margin-top: 15px;
+    position: relative;
+}
+
+img {
+    display: inline-block;
+    height: 557px;
+    width: 260px;
+}
+
+.your_info {
+
+    position: absolute;
+    display: inline-block;
+    left: 25px;
+    top: 40px;
+    width: 100px;
+    height: 50px;
+}
+
+button {
+    border-radius: 15px;
+    background-color: #493eff;
+    font-size: 15px;
+
 }
 
 
+.step1 {
+    color: white;
+    margin-left: 37px;
+    width: 100px;
+    display: inline-block;
+    margin-top: -20px;
+}
+
+.information_side {
+    top: 95px;
+    background-color: red;
+    display: inline-block;
+    position: absolute;
+    height: 585px;
+    width: 450px;
+}
+
+.form_box {
+    display: inline-block;
+    background-color: green;
+    margin-left: 70px;
+    margin-top: 32px
+}
+
+h2 {
+color: grey;
+font-size: 14px;
+}
