@@ -6,20 +6,23 @@ section {
     background-color: white;
     margin-top: 80px;
     margin-left: 190px;
-    margin-right: 150px;
+    margin-right: 370px;
     border-radius: 10px;
+    font-family: 'DM Sans', sans-serif;
+    Font size: 16px
 }
 
 
 .sidebar {
-    height: 585px;
+    height: 545px;
     width: 260px;
     margin-left: 15px;
     border-radius: 10px;
     display: inline-block;
-    background-color: green;
-    margin-top: 15px;
+    background-color: ;
+    margin-top: 14px;
     position: relative;
+    background-color: ;
 }
 
 img {
@@ -42,6 +45,8 @@ button {
     border-radius: 15px;
     background-color: #493eff;
     font-size: 15px;
+    color:white;
+    border-color: white;
 
 }
 
@@ -52,25 +57,55 @@ button {
     width: 100px;
     display: inline-block;
     margin-top: -20px;
+    font-weight: bold;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
 }
 
 .information_side {
     top: 95px;
-    background-color: red;
     display: inline-block;
     position: absolute;
     height: 585px;
     width: 450px;
+    background-color: 
 }
 
 .form_box {
     display: inline-block;
-    background-color: green;
     margin-left: 70px;
-    margin-top: 32px
+    margin-top: 32px;
 }
 
 h2 {
-color: grey;
-font-size: 14px;
+    color: grey;
+    font-size: 14px;
+}
+
+label {
+    color: #03285a;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: inline-block;
+
+}
+
+input {
+    height: 35px;
+    width: 360px;
+    border-radius: 5px;
+    color: grey
+}
+
+.end {
+    background-color: #03285a;
+    color:white;
+    position: absolute;
+    left:400px;
+    top:490px;
+    left:350px;
+    width: 100px;
+    height: 40px;
+    border-radius: 7px;
 }
