@@ -7,10 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>multistep Form</title>
   <link rel="stylesheet" href=style.css>
-  <link rel="stylesheet" href="reset.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Croissant+One&family=DM+Sans&family=Manrope:wght@500&family=Outfit:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat&family=Croissant+One&family=DM+Sans&family=Manrope:wght@500&family=Outfit:wght@700&display=swap"
+    rel="stylesheet">
 
 </head>
 
@@ -34,19 +35,38 @@
       <div class="form_box">
         <h1> Personal info</h1>
         <h2>Please provide your name, email address, and phone number.</h2>
-        <form>
-          <label for="name">Name</label> <br>
-          <input type="text" name="nome" value="e.g Stephen King"><br>
+        <form id="form">
+          <label for="name">Nome</label> <br>
+          <input type="text" placeholder="e,g Stephen King" class="inputs required" oninput="nameValidate"><br>
+          <span>O nome deve ter no mínimo 3 caracteres </span>
           <label for="email"> Email Address</label><br>
-          <input type="email" name="email" value="e.gstephenking@lorem.com"><br>
+          <input type="email" placeholder=" king@king.com" class="inputs required"><br>
           <label for="telephone">Phone Number</label> <br>
-          <input type="tel" name="phone" value="e.g+1234 567 890"><br>
+          <input type="tel" placeholder="37823 232323 323" class="inputs required"><br>
         </form>
       </div>
       <button class="end"> Next Step</button>
     </div>
     </div>
   </section>
+  <script>
+   
+   const form = document.getElementsById('form');
+   const campos = document.querySelectorAll('.required');
+   const emailRegex = /\S+@\S+\.\S+/;
+
+   function nameValidate(){
+
+    if (campos[0].value.length < 3){
+      console.log ('O NOME DEVE TER MAIS DO QUE 3 CARACTERES')
+    } else {
+      console.log('NOME VALIDADO')
+    }
+   }
+
+
+
+  </script>
 
 </body>
 
