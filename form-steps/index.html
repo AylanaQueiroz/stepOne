@@ -35,14 +35,14 @@
       <div class="form_box">
         <h1> Personal info</h1>
         <h2>Please provide your name, email address, and phone number.</h2>
-        <form id="form">
+        <form class="formulario">
           <label for="name">Nome</label> <br>
-          <input type="text" placeholder="e,g Stephen King" class="inputs required" oninput="nameValidate"><br>
-          <span>O nome deve ter no mínimo 3 caracteres </span>
+          <input type="text" placeholder="e,g Stephen King" class="inputs required" id="name"
+            oninput="nameValidate()"><br>
           <label for="email"> Email Address</label><br>
-          <input type="email" placeholder=" king@king.com" class="inputs required"><br>
+          <input type="email" placeholder=" king@king.com" class="inputs required" id="email"><br>
           <label for="telephone">Phone Number</label> <br>
-          <input type="tel" placeholder="37823 232323 323" class="inputs required"><br>
+          <input type="tel" placeholder="37823 232323 323" class="inputs required" id="telephone"><br>
         </form>
       </div>
       <button class="end"> Next Step</button>
@@ -50,19 +50,26 @@
     </div>
   </section>
   <script>
-   
-   const form = document.getElementsById('form');
-   const campos = document.querySelectorAll('.required');
-   const emailRegex = /\S+@\S+\.\S+/;
 
-   function nameValidate(){
 
-    if (campos[0].value.length < 3){
-      console.log ('O NOME DEVE TER MAIS DO QUE 3 CARACTERES')
-    } else {
-      console.log('NOME VALIDADO')
+    const campos = document.querySelectorAll('.required');
+    const form = document.getElementsByClassName('formulario');
+    const emailRegex = /\S+@\S+\.\S+/;
+
+    function setError (index){
+      campos[index].style.border ='2px solid #e63636';
     }
-   }
+
+
+    function nameValidate() {
+
+      if (campos[0].value.length < 3) {
+        
+        setError(0);
+      } else {
+        console.log('NOME VALIDADO')
+      }
+    }
 
 
 
