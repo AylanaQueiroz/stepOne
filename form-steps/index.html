@@ -36,13 +36,15 @@
         <h1> Personal info</h1>
         <h2>Please provide your name, email address, and phone number.</h2>
         <form class="formulario">
-          <label for="name">Nome</label> <br>
+          <label for="name">Name</label> <br>
           <input type="text" placeholder="e,g Stephen King" class="inputs required" id="name"
             oninput="nameValidate()"><br>
           <label for="email"> Email Address</label><br>
-          <input type="email" placeholder=" king@king.com" class="inputs required" id="email"><br>
+          <input type="email" placeholder=" king@king.com" class="inputs required" id="email"
+            oninput="emailValidate()"><br>
           <label for="telephone">Phone Number</label> <br>
-          <input type="tel" placeholder="37823 232323 323" class="inputs required" id="telephone"><br>
+          <input type="tel" placeholder="37823 232323 323" class="inputs required" id="telephone"
+            oninput="phoneValidate"> <br>
         </form>
       </div>
       <button class="end"> Next Step</button>
@@ -56,22 +58,42 @@
     const form = document.getElementsByClassName('formulario');
     const emailRegex = /\S+@\S+\.\S+/;
 
-    function setError (index){
-      campos[index].style.border ='2px solid #e63636';
+    function setError(index) {
+      campos[index].style.border = '2px solid #e63636';
+
     }
 
+    function quitError(index) {
+      campos[index].style.border = '2px solid black'
+    }
 
     function nameValidate() {
 
       if (campos[0].value.length < 3) {
-        
+
         setError(0);
+
       } else {
-        console.log('NOME VALIDADO')
+        quitError(0);
       }
     }
 
+    function emailValidate() {
 
+      if (!emailRegex.test(campos[1].value)) {
+
+        setError(1);
+
+      } else {
+
+        quitError(1);
+      }
+    }
+
+    function phoneValidate() {
+
+
+    }
 
   </script>
 
