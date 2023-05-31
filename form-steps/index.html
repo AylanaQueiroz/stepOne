@@ -44,7 +44,7 @@
             oninput="emailValidate()"><br>
           <label for="telephone">Phone Number</label> <br>
           <input type="tel" placeholder="37823 232323 323" class="inputs required" id="telephone"
-            oninput="phoneValidate"> <br>
+            oninput="phoneValidate()"><br>
         </form>
       </div>
       <button class="end"> Next Step</button>
@@ -57,6 +57,9 @@
     const campos = document.querySelectorAll('.required');
     const form = document.getElementsByClassName('formulario');
     const emailRegex = /\S+@\S+\.\S+/;
+    const phoneRegex = '^[0-9]+$';
+    const onlyNumbers = new RegExp('^[0-9]+$')
+
 
     function setError(index) {
       campos[index].style.border = '2px solid #e63636';
@@ -92,8 +95,17 @@
 
     function phoneValidate() {
 
+      if (!onlyNumbers.test(campos[2].value)) {
 
+        setError(2);
+
+      } else {
+        
+        quitError(2);
+      }
     }
+
+
 
   </script>
 
