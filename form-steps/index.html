@@ -39,15 +39,18 @@
           <label for="name">Name</label> <br>
           <input type="text" placeholder="e,g Stephen King" class="inputs required" id="name"
             oninput="nameValidate()"><br>
+          <span class="span">This Field is required</span><br>
           <label for="email"> Email Address</label><br>
           <input type="email" placeholder=" king@king.com" class="inputs required" id="email"
             oninput="emailValidate()"><br>
+            <span class="span">Invalid E-mail</span><br>
           <label for="telephone">Phone Number</label> <br>
           <input type="tel" placeholder="37823 232323 323" class="inputs required" id="telephone"
             oninput="phoneValidate()"><br>
+            <span class="span">Invalid phone Number</span><br>
         </form>
       </div>
-      <button class="end"> Next Step</button>
+      <button class="end"> <a href="file:///C:/Users/user/workspace/stepOne/form-steps/index2.html">Next Step</a></button>
     </div>
     </div>
   </section>
@@ -56,6 +59,7 @@
 
     const campos = document.querySelectorAll('.required');
     const form = document.getElementsByClassName('formulario');
+    const spans =  document.querySelectorAll('.span');
     const emailRegex = /\S+@\S+\.\S+/;
     const phoneRegex = '^[0-9]+$';
     const onlyNumbers = new RegExp('^[0-9]+$')
@@ -63,18 +67,23 @@
 
     function setError(index) {
       campos[index].style.border = '2px solid #e63636';
-
+      spans[index].style.display = 'block'
     }
 
     function quitError(index) {
-      campos[index].style.border = '2px solid black'
+      campos[index].style.border = '2px solid black';
+      spans[index].style.display = 'none'
+      //spans[index].innerHTML ='✅valid'
+      //spans[index].style.color = 'green'
+      
+     
     }
 
     function nameValidate() {
 
       if (campos[0].value.length < 3) {
 
-        setError(0);
+        setError(0); 
 
       } else {
         quitError(0);
