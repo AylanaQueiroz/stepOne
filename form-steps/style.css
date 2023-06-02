@@ -123,3 +123,21 @@ span {
     font-weight: bold;
     margin-left: 200px;
 }
+
+.arcade {
+    display: inline-block;
+    background-color: #eef5ff;
+    height: 150px;
+    width: 130px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.advanced {
+    display: inline-block;
+    background-color: #eef5ff;
+    height: 150px;
+    width: 130px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
