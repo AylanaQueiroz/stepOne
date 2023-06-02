@@ -20,8 +20,10 @@
     <div class="sidebar">
       <img src="img/sidebar.svg" alt="imagem de fundo da barra lateral">
       <div class="your_info">
-        <button>1</button>
-        <label class="step1">STEP 1 <br><b>YOUR INFO</b></label>
+        <button id="button_1">1</button>
+        <label id="teste" class="step1"><a onclick="setIndice()"
+            href="file:///C:/Users/user/workspace/stepOne/form-steps/index.html">STEP
+            1 </a><br><b>YOUR INFO </b> </label>
         <button>2</button>
         <label class="step1">STEP 2 <br><b>SELECT PLAN</b></label>
         <button>3</button>
@@ -33,7 +35,7 @@
     </div>
     <div class="information_side">
       <div class="form_box">
-        <h1> Personal info</h1>
+        <h1>Personal info</h1>
         <h2>Please provide your name, email address, and phone number.</h2>
         <form class="formulario">
           <label for="name">Name</label> <br>
@@ -43,26 +45,34 @@
           <label for="email"> Email Address</label><br>
           <input type="email" placeholder=" king@king.com" class="inputs required" id="email"
             oninput="emailValidate()"><br>
-            <span class="span">Invalid E-mail</span><br>
+          <span class="span">Invalid E-mail</span><br>
           <label for="telephone">Phone Number</label> <br>
-          <input type="tel" placeholder="37823 232323 323" class="inputs required" id="telephone"
+          <input type="tel" placeholder="37 99999 3023" class="inputs required" id="telephone"
             oninput="phoneValidate()"><br>
-            <span class="span">Invalid phone Number</span><br>
+          <span class="span">Invalid phone Number</span><br>
         </form>
       </div>
-      <button class="end"> <a href="file:///C:/Users/user/workspace/stepOne/form-steps/index2.html">Next Step</a></button>
+      <button class="end"> <a href="file:///C:/Users/user/workspace/stepOne/form-steps/index2.html">Next
+          Step</a></button>
     </div>
     </div>
   </section>
   <script>
 
-
+    var button = document.querySelectorAll('button')
     const campos = document.querySelectorAll('.required');
     const form = document.getElementsByClassName('formulario');
-    const spans =  document.querySelectorAll('.span');
+    const spans = document.querySelectorAll('.span');
     const emailRegex = /\S+@\S+\.\S+/;
     const phoneRegex = '^[0-9]+$';
     const onlyNumbers = new RegExp('^[0-9]+$')
+
+
+    function setIndice(index) {
+
+      var button = window.document.getElementById('button_1')
+      button.style.backgroundColor = 'wheat'
+    }
 
 
     function setError(index) {
@@ -75,15 +85,15 @@
       spans[index].style.display = 'none'
       //spans[index].innerHTML ='✅valid'
       //spans[index].style.color = 'green'
-      
-     
+
+
     }
 
     function nameValidate() {
 
       if (campos[0].value.length < 3) {
 
-        setError(0); 
+        setError(0);
 
       } else {
         quitError(0);
@@ -109,7 +119,7 @@
         setError(2);
 
       } else {
-        
+
         quitError(2);
       }
     }
