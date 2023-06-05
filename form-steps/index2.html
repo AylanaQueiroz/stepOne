@@ -24,8 +24,10 @@
                 <label id="teste" class="step1"><a onclick="setIndice()"
                         href="file:///C:/Users/user/workspace/stepOne/form-steps/index.html">STEP
                         1 </a><br><b>YOUR INFO </b> </label>
-                <button>2</button>
-                <label class="step1">STEP 2 <br><b>SELECT PLAN</b></label>
+                <button id="button_2">2</button>
+                <label id="teste" class="step1"><a onclick="setIndice()"
+                        href="file:///C:/Users/user/workspace/stepOne/form-steps/index2.html">STEP
+                        2</a><br><b>SELECT PLAN</b></label>
                 <button>3</button>
                 <label class="step1">STEP 3 <br><b>ADD-ONS</b></label>
                 <button>4</button>
@@ -38,27 +40,51 @@
                 <h1>Select your plan</h1>
                 <h2>You have the option of monthly or yearly billing.</h2>
                 <div class="align">
-                    <div class="arcade">
+                    <div id="bora" onclick="setField()" class="arcade_field">
                         <h1>Arcade</h1>
                         <h2>$9/mo</h2>
                     </div>
-                    <div class="advanced">
+                    <div class="advanced_field">
                         <h1>Advanced</h1>
                         <h2>$12/mo</h2>
                     </div>
-                    <div class="pro">
+                    <div class="pro_field">
                         <h1>Pro</h1>
                         <h2>$15/mo</h2>
                     </div>
                     <div class="monthly">
-                        <h1> Monthly</h1> <input type="radio" name="" id="">
+                        <h1> Monthly</h1>
+                        <h2>Yearly</h2>
 
                     </div>
                 </div>
             </div>
             <button class="end"> <a href="file:///C:/Users/user/workspace/stepOne/form-steps/index2.html">Next
                     Step</a></button>
+            <button> <a href="file:///C:/Users/user/workspace/stepOne/form-steps/index.html">Go Back</a></button>
         </div>
         </div>
     </section>
     <script>
+
+        function setIndice(index) {
+
+            var button = window.document.getElementById('button_2')
+            button.style.backgroundColor = 'wheat'
+        }
+
+
+        var field = document.getElementById('bora')
+
+        function setField(index) {
+            var field = window.document.getElementById('bora')
+            //field[index].style.border = '2px solid red'
+            field.style.border = '2px solid red'
+
+        }
+
+
+    </script>
+</body>
+
+</html>

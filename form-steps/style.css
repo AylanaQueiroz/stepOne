@@ -77,6 +77,12 @@ button {
     margin-top: 32px;
 }
 
+
+h1 {
+    color: #03285a;
+}
+
+
 h2 {
     color: grey;
     font-size: 14px;
@@ -130,31 +136,42 @@ span {
     width: 430px;
     border-radius: 10px;
     margin-top: 30px;
+    text-align: center;
 }
 
-.arcade {
+.arcade_field {
     display: inline-block;
     background-color: #eef5ff;
     height: 150px;
     width: 130px;
+    border: 1px solid #493eff;
     border-radius: 10px;
     margin-top: 20px;
 }
 
-.advanced {
+.advanced_field {
     display: inline-block;
     background-color: #eef5ff;
     height: 150px;
     width: 130px;
     border-radius: 10px;
     margin-top: 30px;
+    border: 1px solid #493eff;
 }
 
-.pro {
+.pro_field {
     display: inline-block;
     background-color: #eef5ff;
     height: 150px;
     width: 130px;
     border-radius: 10px;
     margin-top: 30px;
+    border: 1px solid #493eff;
+}
+
+.monthly {
+    height: 30px;
+    width: 405px;
+    background-color: #eef5ff;
+    text-align: center;
 }
