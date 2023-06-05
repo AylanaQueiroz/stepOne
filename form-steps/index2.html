@@ -44,11 +44,11 @@
                         <h1>Arcade</h1>
                         <h2>$9/mo</h2>
                     </div>
-                    <div class="advanced_field">
+                    <div id="bore" class="advanced_field">
                         <h1>Advanced</h1>
                         <h2>$12/mo</h2>
                     </div>
-                    <div class="pro_field">
+                    <div id="bora" class="pro_field">
                         <h1>Pro</h1>
                         <h2>$15/mo</h2>
                     </div>
@@ -74,14 +74,6 @@
         }
 
 
-        //var field = document.getElementById('bora')
-
-       // function setField(index) {
-       //     var field = window.document.getElementById('bora')
-       //     //field[index].style.border = '2px solid red'
-       //     //field.style.border = '2px solid red'
-
-      //  }
 
 
   var test = document.getElementById("bora");
@@ -94,14 +86,16 @@ test.addEventListener("mouseenter", function( event ) {
    }, 500);
   }, false);
 
-  //test.addEventListener("mouseover", function( event ) {
-    // highlight the mouseover target
-  //  event.target.style.color = "orange";
-//setTimeout(function() {
- //     event.target.style.color = "";
- //   }, 1000);
-//  }, false);
+  var test = document.getElementById("bore");
 
+test.addEventListener("mouseenter", function( event ) {
+    
+    event.target.style.border = "1px solid #493eff";
+    setTimeout(function() {
+      event.target.style.border = "";
+   }, 500);
+  }, false);
+  
     </script>
 </body>
 
