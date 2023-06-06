@@ -9,7 +9,7 @@ section {
     margin-right: 370px;
     border-radius: 10px;
     font-family: 'DM Sans', sans-serif;
-    Font size: 16px
+    Font-size: 16px;
 }
 
 
@@ -19,10 +19,9 @@ section {
     margin-left: 15px;
     border-radius: 10px;
     display: inline-block;
-    background-color: ;
     margin-top: 14px;
     position: relative;
-    background-color: ;
+
 }
 
 img {
@@ -41,11 +40,11 @@ img {
     height: 50px;
 }
 
-button {
+.end {
     border-radius: 15px;
     background-color: #493eff;
     font-size: 15px;
-    color:white;
+    color: white;
     border-color: white;
 
 }
@@ -68,7 +67,7 @@ button {
     position: absolute;
     height: 585px;
     width: 450px;
-    background-color: 
+    background-color:
 }
 
 .form_box {
@@ -106,19 +105,28 @@ input {
 
 .end {
     background-color: #03285a;
-    color:white;
+    color: white;
+    font-weight: bold;
     position: absolute;
-    left:400px;
-    top:490px;
-    left:350px;
+    left: 400px;
+    top: 490px;
+    left: 350px;
     width: 100px;
     height: 40px;
     border-radius: 7px;
 }
 
+button {
+    color: white;
+    background-color: #493eff;
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+}
+
 a {
+    color: inherit;
     text-decoration: none;
-    color:white
 }
 
 
@@ -137,6 +145,7 @@ span {
     border-radius: 10px;
     margin-top: 30px;
     text-align: center;
+
 }
 
 .arcade_field {
@@ -147,7 +156,9 @@ span {
     border: 1px solid rgb(185, 178, 178);
     border-radius: 10px;
     margin-top: 20px;
+    margin-left: -25px;
 }
+
 
 .advanced_field {
     display: inline-block;
@@ -156,7 +167,8 @@ span {
     width: 130px;
     border-radius: 10px;
     margin-top: 30px;
-    border: 1px solid rgb(185, 178, 178);;
+    border: 1px solid rgb(185, 178, 178);
+    ;
 }
 
 .pro_field {
@@ -166,7 +178,8 @@ span {
     width: 130px;
     border-radius: 10px;
     margin-top: 30px;
-    border: 1px solid rgb(185, 178, 178);;
+    border: 1px solid rgb(185, 178, 178);
+    ;
 }
 
 .monthly {
@@ -174,4 +187,59 @@ span {
     width: 405px;
     background-color: #eef5ff;
     text-align: center;
+}
+
+
+#month_year {
+    width: 50px;
+    display: inline-block;
+    position: relative;
+    bottom: 39px;
+    height: 25px;
+    background-color: #03285a;
+    border-radius: 25px;
+}
+
+.month {
+    margin-left: -200px;
+    font-size: 16px;
+    padding-top: 5px;
+
+}
+
+.radio {
+
+    background-color: white;
+    width: 28px;
+    position: relative;
+    display: inline-block;
+    bottom: 46px;
+    border-radius: 54px;
+    right: 50px;
+    color: white;
+}
+
+.year {
+    width: 28px;
+    position: relative;
+    display: inline-block;
+    bottom: 46px;
+    border-radius: 54px;
+    right: 20px;
+    font-size: 16px;
+
+}
+
+.back {
+    color: gray;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 60px;
+    position: relative;
+    background-color: white;
+    width: 80px;
+    height: 30px;
+    border: none;
+ 
 }

@@ -40,28 +40,33 @@
                 <h1>Select your plan</h1>
                 <h2>You have the option of monthly or yearly billing.</h2>
                 <div class="align">
-                    <div id="bora"  class="arcade_field">
+                    <div id="arcade_field" class="arcade_field">
                         <h1>Arcade</h1>
                         <h2>$9/mo</h2>
                     </div>
-                    <div id="bore" class="advanced_field">
+                    <div id="advanced_field" class="advanced_field">
                         <h1>Advanced</h1>
                         <h2>$12/mo</h2>
                     </div>
-                    <div id="bora" class="pro_field">
+                    <div id="pro_field" class="pro_field">
                         <h1>Pro</h1>
                         <h2>$15/mo</h2>
                     </div>
                     <div class="monthly">
-                        <h1> Monthly</h1>
-                        <h2>Yearly</h2>
+                        <h1 class="month"> Monthly</h1>
+                        <input id="month_year" type="button" value="">
+                        <div class="radio">
+                            .
+                        </div>
+                        <h2 class="year">Yearly</h2>
 
                     </div>
                 </div>
             </div>
             <button class="end"> <a href="file:///C:/Users/user/workspace/stepOne/form-steps/index2.html">Next
                     Step</a></button>
-            <button> <a href="file:///C:/Users/user/workspace/stepOne/form-steps/index.html">Go Back</a></button>
+            <button class="back"> <a href="file:///C:/Users/user/workspace/stepOne/form-steps/index.html">Go Back
+                </a></button>
         </div>
         </div>
     </section>
@@ -76,26 +81,36 @@
 
 
 
-  var test = document.getElementById("bora");
+        var test = document.getElementById("arcade_field");
 
-test.addEventListener("mouseenter", function( event ) {
-    
-    event.target.style.border = "1px solid #493eff";
-    setTimeout(function() {
-      event.target.style.border = "";
-   }, 500);
-  }, false);
+        test.addEventListener("mouseenter", function (event) {
 
-  var test = document.getElementById("bore");
+            event.target.style.border = "1px solid #493eff";
+            setTimeout(function () {
+                event.target.style.border = "";
+            }, 500);
+        }, false);
 
-test.addEventListener("mouseenter", function( event ) {
-    
-    event.target.style.border = "1px solid #493eff";
-    setTimeout(function() {
-      event.target.style.border = "";
-   }, 500);
-  }, false);
-  
+        var test = document.getElementById("advanced_field");
+
+        test.addEventListener("mouseenter", function (event) {
+
+            event.target.style.border = "1px solid #493eff";
+            setTimeout(function () {
+                event.target.style.border = "";
+            }, 500);
+        }, false);
+
+        var test = document.getElementById("pro_field");
+
+        test.addEventListener("mouseenter", function (event) {
+
+            event.target.style.border = "1px solid #493eff";
+            setTimeout(function () {
+                event.target.style.border = "";
+            }, 500);
+        }, false);
+
     </script>
 </body>
 
