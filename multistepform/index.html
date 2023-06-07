@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>multistep Form</title>
+    <link rel="stylesheet" href=style.css>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat&family=Croissant+One&family=DM+Sans&family=Manrope:wght@500&family=Outfit:wght@700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="displayStep" id="displayStep">
+            <div class="circle">
+                <div class="cirle_1" id="circle_1">
+                    <p>1</p>
+                </div>
+                <div class="cirle_2" id="circle_2">
+                    <p>2</p>
+                </div>
+                <div class="cirle_3" id="circle_3">
+                    <p>3</p>
+                </div>
+                <div class="cirle_4" id="circle_4">
+                    <p>4</p>
+                </div>
+            </div>
+            <div class="steps">
+                <div class="step_1">
+                    <p>Step 1</p>
+                    <span>Your Info</span>
+                </div>
+                <div class="step_2">
+                    <p>Step 2</p>
+                    <span>Select Plan</span>
+                </div>
+                <div class="step_3">
+                    <p>Step 3 </p>
+                    <span>Add- Ones</span>
+                </div>
+                <div class="step_4">
+                    <p>Step 4 </p>
+                    <span>Summary</span>
+                </div>
+            </div>
+        </div>
+        <div class="step_Container" id="step_Container">
+            <div class="affich_Step">
+                <div class="step_Info" id="step_Info">
+                    <h1>Personal Info</h1>
+                    <p class="description">Please provide your name, email address, and phone number.</p>
+                    <div class="flex_Error">
+                        <p>Name</p>
+                        <span id="error_Name"></span>
+                    </div>
+                    <input type="text" name="" id="info_Name" placeholder="e,g Stephen King">
+                    <div class="flex_Error">
+                        <p>Email Address</p>
+                        <span id="error_Email"></span>
+                    </div>
+                    <input type="text" name="" id="info_Email" placeholder="king@king.com">
+                    <div class="flex_Error">
+                        <p>Phone number</p>
+                        <span id="error_Phone"></span>
+                    </div>
+                    <input type="text" name="" id="info_Phone" placeholder="+1 635 3736 3837">
+                    <div class="button_Next">
+                        <button onclick="goStepTwo()" class="next">Next</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
