@@ -4,7 +4,7 @@ body {
 
 section {
     background-color: white;
-    margin-top: 80px;
+    margin-top: 20px;
     margin-left: 190px;
     margin-right: 370px;
     border-radius: 10px;
@@ -21,7 +21,6 @@ section {
     display: inline-block;
     margin-top: 14px;
     position: relative;
-
 }
 
 img {
@@ -31,7 +30,6 @@ img {
 }
 
 .your_info {
-
     position: absolute;
     display: inline-block;
     left: 25px;
@@ -40,13 +38,71 @@ img {
     height: 50px;
 }
 
+button {
+    color: white;
+    background-color: #493eff;
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+label {
+    color: #03285a;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.information_side {
+    display: inline-block;
+    height: 585px;
+    width: 450px;
+}
+
+.form_box {
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+input {
+    height: 35px;
+    width: 360px;
+    border-radius: 5px;
+    color: grey
+}
+
+span {
+
+    display: none;
+    color: red;
+    font-weight: bold;
+    margin-left: 200px;
+}
+
+.end_bt {
+    background-color: #03285a;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    left: 400px;
+    top: 490px;
+    left: 350px;
+    width: 100px;
+    height: 40px;
+    border-radius: 7px;
+}
+
 .end {
     border-radius: 15px;
     background-color: #493eff;
     font-size: 15px;
     color: white;
     border-color: white;
-
+    position: relative;
+    margin-top: 130px;
+    margin-left: 460px;
 }
 
 
@@ -61,20 +117,9 @@ img {
     font-size: 12px;
 }
 
-.information_side {
-    top: 95px;
-    display: inline-block;
-    position: absolute;
-    height: 585px;
-    width: 450px;
-    background-color:
-}
 
-.form_box {
-    display: inline-block;
-    margin-left: 70px;
-    margin-top: 32px;
-}
+
+
 
 
 h1 {
@@ -87,42 +132,13 @@ h2 {
     font-size: 14px;
 }
 
-label {
-    color: #03285a;
-    font-weight: bold;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    display: inline-block;
 
-}
 
-input {
-    height: 35px;
-    width: 360px;
-    border-radius: 5px;
-    color: grey
-}
 
-.end {
-    background-color: #03285a;
-    color: white;
-    font-weight: bold;
-    position: absolute;
-    left: 400px;
-    top: 490px;
-    left: 350px;
-    width: 100px;
-    height: 40px;
-    border-radius: 7px;
-}
 
-button {
-    color: white;
-    background-color: #493eff;
-    border-radius: 10px;
-    width: 30px;
-    height: 30px;
-}
+
+
+
 
 a {
     color: inherit;
@@ -130,13 +146,7 @@ a {
 }
 
 
-span {
 
-    display: none;
-    color: red;
-    font-weight: bold;
-    margin-left: 200px;
-}
 
 .align {
     display: inline-block;
@@ -241,5 +251,5 @@ span {
     width: 80px;
     height: 30px;
     border: none;
- 
+
 }
