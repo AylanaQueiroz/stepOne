@@ -54,6 +54,22 @@ label {
     display: inline-block;
 }
 
+.step1 {
+    color: white;
+    margin-left: 37px;
+    width: 100px;
+    display: inline-block;
+    margin-top: -20px;
+    font-weight: bold;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
 .information_side {
     display: inline-block;
     height: 585px;
@@ -64,6 +80,16 @@ label {
     display: inline-block;
     margin-left: 70px;
     margin-top: 10px;
+}
+
+h1 {
+    color: #03285a;
+}
+
+
+h2 {
+    color: grey;
+    font-size: 14px;
 }
 
 input {
@@ -85,68 +111,13 @@ span {
     background-color: #03285a;
     color: white;
     font-weight: bold;
-    position: absolute;
-    left: 400px;
-    top: 490px;
-    left: 350px;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 340px;
     width: 100px;
     height: 40px;
     border-radius: 7px;
 }
-
-.end {
-    border-radius: 15px;
-    background-color: #493eff;
-    font-size: 15px;
-    color: white;
-    border-color: white;
-    position: relative;
-    margin-top: 130px;
-    margin-left: 460px;
-}
-
-
-.step1 {
-    color: white;
-    margin-left: 37px;
-    width: 100px;
-    display: inline-block;
-    margin-top: -20px;
-    font-weight: bold;
-    font-family: 'DM Sans', sans-serif;
-    font-size: 12px;
-}
-
-
-
-
-
-
-h1 {
-    color: #03285a;
-}
-
-
-h2 {
-    color: grey;
-    font-size: 14px;
-}
-
-
-
-
-
-
-
-
-
-a {
-    color: inherit;
-    text-decoration: none;
-}
-
-
-
 
 .align {
     display: inline-block;
@@ -199,6 +170,12 @@ a {
     text-align: center;
 }
 
+.month {
+    margin-left: -200px;
+    font-size: 16px;
+    padding-top: 5px;
+
+}
 
 #month_year {
     width: 50px;
@@ -210,15 +187,7 @@ a {
     border-radius: 25px;
 }
 
-.month {
-    margin-left: -200px;
-    font-size: 16px;
-    padding-top: 5px;
-
-}
-
 .radio {
-
     background-color: white;
     width: 28px;
     position: relative;
@@ -240,16 +209,24 @@ a {
 
 }
 
+.end {
+    background-color: #03285a;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+    border-radius: 7px;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 340px;
+}
+
 .back {
     color: gray;
     font-weight: bold;
-    display: inline-block;
     margin-left: 70px;
-    margin-top: 60px;
-    position: relative;
     background-color: white;
     width: 80px;
     height: 30px;
     border: none;
-
 }
