@@ -19,42 +19,53 @@
   <section>
     <div class="sidebar">
       <img src="img/sidebar.svg" alt="imagem de fundo da barra lateral">
-      <div class="your_info">
-        <button id="button_1">1</button>
-        <label id="teste" class="step1"><a onclick="setIndice()"
-            href="file:///C:/Users/user/workspace/stepOne/form-steps/index.html">STEP
-            1 </a><br><b>YOUR INFO </b> </label>
-        <button>2</button>
-        <label class="step1"> <a href="file:///C:/Users/user/workspace/stepOne/form-steps/index2.html"> STEP 2 </a>
-          <br><b>SELECT PLAN</b></label>
-        <button>3</button>
-        <label class="step1">STEP 3 <br><b>ADD-ONS</b></label>
-        <button>4</button>
-        <label class="step1">STEP 4 <br><b>SUMMARY</b></label>
+      <div class="buttons">
+        <button id="button_1">1</button><br>
+        <button>2</button><br>
+        <button>3</button><br>
+        <button>4</button><br>
       </div>
-    </div>
-    <div class="information_side">
-      <div class="form_box">
-        <h1>Personal info</h1>
-        <h2>Please provide your name, email address, and phone number.</h2>
-        <form class="formulario">
-          <label for="name">Name</label> <br>
-          <input type="text" placeholder="e,g Stephen King" class="inputs required" id="name"
-            oninput="nameValidate()"><br>
-          <span class="span">This Field is required</span><br>
-          <label for="email"> Email Address</label><br>
-          <input type="email" placeholder=" king@king.com" class="inputs required" id="email"
-            oninput="emailValidate()"><br>
-          <span class="span">Invalid E-mail</span><br>
-          <label for="telephone">Phone Number</label> <br>
-          <input type="tel" placeholder="37 99999 3023" class="inputs required" id="telephone"
-            oninput="phoneValidate()"><br>
-          <span class="span">Invalid phone Number</span><br>
-        </form>
+      <div class="info">
+        <div id="teste" class="step1"><a onclick="setIndice()"
+            href="file:///C:/Users/user/workspace/stepOne/form-steps/index.html"></a>
+            <p>STEP1</p>
+            <br><b>YOUR INFO </b>
+            <div class="step1"> <a href="file:///C:/Users/user/workspace/stepOne/form-steps/index2.html">
+                <p>STEP 2</p>
+            </div>
+            <div class="step1">
+              <br><b>SELECT PLAN</b>
+            </div>
+            <div class="step1">
+              <p>STEP 3</p><br><b>ADD-ONS</b>
+            </div>
+
+            <p>STEP 4</p><br><b>SUMMARY</b>
+
+        </div>
       </div>
-      <button class="end_bt"> <a href="file:///C:/Users/user/workspace/stepOne/form-steps/index2.html">Next
-          Step</a></button>
-    </div>
+      <div class="information_side">
+        <div class="form_box">
+          <h1>Personal info</h1>
+          <h2>Please provide your name, email address, and phone number.</h2>
+          <form class="formulario">
+            <label for="name">Name</label> <br>
+            <input type="text" placeholder="e,g Stephen King" class="inputs required" id="name"
+              oninput="nameValidate()"><br>
+            <span class="span">This Field is required</span><br>
+            <label for="email"> Email Address</label><br>
+            <input type="email" placeholder=" king@king.com" class="inputs required" id="email"
+              oninput="emailValidate()"><br>
+            <span class="span">Invalid E-mail</span><br>
+            <label for="telephone">Phone Number</label> <br>
+            <input type="tel" placeholder="37 99999 3023" class="inputs required" id="telephone"
+              oninput="phoneValidate()"><br>
+            <span class="span">Invalid phone Number</span><br>
+          </form>
+        </div>
+        <button class="end_bt"> <a href="file:///C:/Users/user/workspace/stepOne/form-steps/index2.html">Next
+            Step</a></button>
+      </div>
   </section>
   <section>
     <div class="sidebar">
