@@ -38,15 +38,15 @@ img {
 
 .info {
     position: absolute;
-    top: 65px;
+    top: 45px;
     left: 50px;
 }
 
 .step1 {
     margin-left: 37px;
     width: 100px;
-    display: inline-block;
-    margin-top: -20px;
+    
+   
     font-family: 'DM Sans', sans-serif;
     font-size: 12px;
 }
@@ -78,7 +78,7 @@ label {
 
 
 p {
-    color: rgb(117, 115, 115);
+    color:rgb(247, 219, 219);
     display: inline-block;
     margin-bottom: 0px;
 }
@@ -242,11 +242,30 @@ span {
 }
 
 .back {
-    color: gray;
+    color: #03285a;
     font-weight: bold;
     margin-left: 70px;
     background-color: white;
     width: 80px;
     height: 30px;
     border: none;
+    margin-bottom: 10px;
+}
+
+.service {
+    width: 15px;
+    height: 15px;
+    background-color: #493eff;
+    color: white;
+}
+
+.online_Service {
+    display: inline-block;
+    background-color: #eef5ff;
+    height: 65px;
+    width: 400px;
+    border: 1px solid #493eff;
+    border-radius: 5px;
+    margin-top: 20px;
+    
 }
