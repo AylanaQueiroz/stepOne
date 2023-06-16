@@ -38,17 +38,16 @@ img {
 
 .info {
     position: absolute;
-    top: 45px;
-    left: 50px;
+    top: 50px;
+    left: 50px;  
 }
 
 .step1 {
     margin-left: 37px;
     width: 100px;
-    
-   
     font-family: 'DM Sans', sans-serif;
     font-size: 12px;
+    margin-bottom: 5px;
 }
 
 b {
@@ -78,7 +77,7 @@ label {
 
 
 p {
-    color:rgb(247, 219, 219);
+    color: rgb(189, 173, 173);
     display: inline-block;
     margin-bottom: 0px;
 }
@@ -169,7 +168,7 @@ span {
     border-radius: 10px;
     margin-top: 30px;
     border: 1px solid rgb(185, 178, 178);
-    ;
+
 }
 
 .pro_field {
@@ -252,12 +251,6 @@ span {
     margin-bottom: 10px;
 }
 
-.service {
-    width: 15px;
-    height: 15px;
-    background-color: #493eff;
-    color: white;
-}
 
 .online_Service {
     display: inline-block;
@@ -267,5 +260,54 @@ span {
     border: 1px solid #493eff;
     border-radius: 5px;
     margin-top: 20px;
-    
+
+}
+
+.service {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    margin-left: -240px;
+    margin-top: 20px;
+
+}
+
+h3 {
+    display: inline-block;
+    color: #03285a;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+h4 {
+    display: inline-block;
+    color: rgb(180, 175, 175);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    position: relative;
+    bottom: 30px;
+    right: 50px;
+}
+
+h5 {
+    display: inline-block;
+    color: #493eff;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    position: relative;
+    bottom: 50px;
+    left: 60px;
+}
+
+.align2 {
+    display: inline-block;
+    background-color: white;
+    width: 430px;
+    border-radius: 10px;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 50px;
+
 }

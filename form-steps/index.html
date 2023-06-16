@@ -27,21 +27,21 @@
       </div>
       <div class="info">
         <div id="teste" class="step1"><a onclick="setIndice()"
-            href="file:///C:/Users/user/workspace/stepOne/form-steps/index.html"></a>
-          <p>STEP1</p>
-          <br><b>YOUR INFO </b>
+            href="file:///C:/Users/user/workspace/stepOne/form-steps/index.html">
+          <p>STEP1</p><br>
+          <b>YOUR INFO</b></a>
         </div>
         <div class="step1"> <a href="file:///C:/Users/user/workspace/stepOne/form-steps/index2.html">
-            <p>STEP 2</p>
+            <p>STEP 2</p><br>
+            <b>SELECT PLAN</b> </a>
         </div>
         <div class="step1">
-          <br><b>SELECT PLAN</b>
+          <p>STEP 3</p><br>
+          <b>ADD-ONS</b>
         </div>
         <div class="step1">
-          <p>STEP 3</p><br><b>ADD-ONS</b>
-        </div>
-        <div class="step1">
-          <p>STEP 4</p><br><b>SUMMARY</b>
+          <p>STEP 4</p><br>
+          <b>SUMMARY</b>
         </div>
       </div>
     </div>
@@ -51,15 +51,15 @@
         <h2>Please provide your name, email address, and phone number.</h2>
         <form class="formulario">
           <label for="name">Name</label> <br>
-          <input type="text" placeholder="e,g Stephen King" class="inputs required" id="name"
+          <input type="text" placeholder="e,g Stephen King" class="inputs_required" id="name"
             oninput="nameValidate()"><br>
           <span class="span">This Field is required</span><br>
           <label for="email"> Email Address</label><br>
-          <input type="email" placeholder=" king@king.com" class="inputs required" id="email"
+          <input type="email" placeholder=" king@king.com" class="inputs_required" id="email"
             oninput="emailValidate()"><br>
           <span class="span">Invalid E-mail</span><br>
           <label for="telephone">Phone Number</label> <br>
-          <input type="tel" placeholder="37 99999 3023" class="inputs required" id="telephone"
+          <input type="tel" placeholder="37 99999 3023" class="inputs_required" id="telephone"
             oninput="phoneValidate()"><br>
           <span class="span">Invalid phone Number</span><br>
         </form>
@@ -68,6 +68,8 @@
           Step</a></button>
     </div>
   </section>
+
+
   <section>
     <div class="sidebar">
       <img src="img/sidebar.svg" alt="imagem de fundo da barra lateral">
@@ -99,29 +101,27 @@
     </div>
     <div class="information_side">
       <div class="form_box">
-        <h1>Select your plan</h1>
-        <h2>You have the option of monthly or yearly billing.</h2>
-        <div class="align">
-          <div id="arcade_field" class="arcade_field">
-            <h1>Arcade</h1>
-            <h2>$9/mo</h2>
-          </div>
-          <div id="advanced_field" class="advanced_field">
-            <h1>Advanced</h1>
-            <h2>$12/mo</h2>
-          </div>
-          <div id="pro_field" class="pro_field">
-            <h1>Pro</h1>
-            <h2>$15/mo</h2>
-          </div>
-          <div class="monthly">
-            <h1 class="month"> Monthly</h1>
-            <input id="month_year" type="button" value="">
-            <div class="radio">
-              .
-            </div>
-            <h2 class="year">Yearly</h2>
-          </div>
+        <h1>Pick add-ons</h1>
+        <h2>Add-ons help enhance your gaming experience.</h2>
+      </div>
+      <div class="align2">
+        <div class="online_Service">
+          <input class="service" type="checkbox" name="online_service" id="">
+          <h3>Online Service</h3> <br>
+          <h4>Acess to multiplayer games</h4>
+          <h5>+$1/mo</h5>
+        </div>
+        <div class="online_Service">
+          <input class="service" type="checkbox" name="online_service" id="">
+          <h3>Larger Storage</h3><br>
+          <h4>Extra 1TB of cloud save</h4>
+          <h5>+$2/mo</h5>
+        </div>
+        <div class="online_Service">
+          <input class="service" type="checkbox" name="online_service" id="">
+          <h3>Customizable</h3><br>
+          <h4>Custom theme on your profile</h4>
+          <h5>+$2/mo</h5>
         </div>
       </div>
       <button class="end"> <a href="file:///C:/Users/user/workspace/stepOne/form-steps/index2.html">Next
@@ -129,73 +129,6 @@
       <button class="back"> <a href="file:///C:/Users/user/workspace/stepOne/form-steps/index.html">Go Back
         </a></button>
     </div>
-  </section>
-  <section>
-    <div class="sidebar">
-      <img src="img/sidebar.svg" alt="imagem de fundo da barra lateral">
-      <div class="buttons">
-        <button id="button_1">1</button><br>
-        <button>2</button><br>
-        <button>3</button><br>
-        <button>4</button><br>
-      </div>
-      <div class="info">
-        <div id="teste" class="step1"><a onclick="setIndice()"
-            href="file:///C:/Users/user/workspace/stepOne/form-steps/index.html"></a>
-          <p>STEP1</p>
-          <br><b>YOUR INFO </b>
-        </div>
-        <div class="step1"> <a href="file:///C:/Users/user/workspace/stepOne/form-steps/index2.html">
-            <p>STEP 2</p>
-        </div>
-        <div class="step1">
-          <br><b>SELECT PLAN</b>
-        </div>
-        <div class="step1">
-          <p>STEP 3</p><br><b>ADD-ONS</b>
-        </div>
-        <div class="step1">
-          <p>STEP 4</p><br><b>SUMMARY</b>
-        </div>
-      </div>
-    </div>
-    <div class="information_side">
-      <div class="form_box">
-        <h1>Pick add-ons</h1>
-        <h2>Add-ons help enhance your gaming experience.</h2>
-        <div class="align">
-          <div class="online_Service">
-            <input class="service" type="checkbox" name="online_service" id="">
-            <h3>Online Service</h3>
-            <h4>Acess to multiplayer games</h4>
-          </div>
-          <div id="advanced_field" class="advanced_field">
-            <h1>Advanced</h1>
-            <h2>$12/mo</h2>
-          </div>
-          <div id="pro_field" class="pro_field">
-            <h1>Pro</h1>
-            <h2>$15/mo</h2>
-          </div>
-          
-        </div>
-      </div>
-
-
-
-
-
-
-
-    <div class="information_side">
-      <div class="form_box">
-        <h1>Pick add-ons</h1>
-        <h2>Add-ons help enhance your gaming experience.</h2>
-
-        
-          <h1>Online Service</h1>
-        </div>
-      </div>
     </div>
   </section>
 
