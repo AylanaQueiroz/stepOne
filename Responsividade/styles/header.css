@@ -1,10 +1,39 @@
 .cabeçalho_menu_hamburger {
-    width: 50px;
-    height: 46px;
+    width: 24px;
+    height: 24px;
     background-image: url("../imagem/menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
     display: inline-block;    
+    padding: 1em;
 }
 
 .cabeçalho {
     background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container_imagem {
+   
+}
+
+.lista_menu {
+    display: none;
+    position: absolute;
+    top:100%;
+    text-transform: uppercase;
+    color: #09395b;
+    
+}
+
+.container_botao:checked~.lista_menu{
+    display:block
 }
