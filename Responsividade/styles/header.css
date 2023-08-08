@@ -29,11 +29,27 @@
     display: none;
     position: absolute;
     top:100%;
-    text-transform: uppercase;
     color: #09395b;
     
 }
 
 .container_botao:checked~.lista_menu{
     display:block
+}
+
+.lista_menu_titulo,
+ .lista_menu_item {
+    background-color:var(--branco);
+    padding: 1em;
+}
+
+.lista_menu_titulo {
+    color:var(--laranja);
+    font-weight: bold;
+}
+
+.lista_menu_link {
+    text-decoration: none;
+    color: var(--azul);
+    text-transform: uppercase;
 }
