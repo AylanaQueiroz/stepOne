@@ -32,6 +32,9 @@
 
 }
 
+.container_botao{
+    display: none;
+}
 .container_botao:checked~.lista_menu {
     display: block
 }
