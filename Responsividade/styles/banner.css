@@ -26,5 +26,16 @@ p {
     color: #FFF;
     padding: 1em;
     width: 100%;
+    text-align: center;
+}
 
+.pesquisa_banner::placeholder{
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFF;
+    text-align: center;
+    background: url("../imagem/Pesquisa.svg") no-repeat;
+    background-position: 1em;
+    
 }
