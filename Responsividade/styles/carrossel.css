@@ -140,21 +140,30 @@ img {
 .p_footer {
     font-size: 16px;
     font-weight: 300;
+    padding: 1.25em;
+    color: #FFF;
+    text-align: center;
 }
 
-.ul_footer {
-    display: flex;   
-
+.card_footer {
+    background-color: #002F52;
 }
-
 .li_footer {
     background-color: #EB9B00;
-    margin: .5em;
-    padding-top: .5em;
-    display: flex;
     color: #FFF;
     font-size: 14px;
     font-weight: 700;
-    justify-content: space-between;
+    margin: 2em 1em;
+   
+}
 
+.ul_footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.topicos_link {
+    padding: 4em 2em;
 }
