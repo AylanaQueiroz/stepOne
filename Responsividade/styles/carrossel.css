@@ -148,12 +148,13 @@ img {
 .card_footer {
     background-color: #002F52;
 }
+
 .li_footer {
     background-color: #EB9B00;
     color: #FFF;
     font-size: 14px;
     font-weight: 700;
-    margin: 2em 1em;
+    margin: 1em;
    
 }
 
@@ -165,5 +166,6 @@ img {
 }
 
 .topicos_link {
-    padding: 4em 2em;
+    padding: 1em;
+    display: flex;
 }
