@@ -10,6 +10,12 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Caveat&family=Croissant+One&family=DM+Sans&family=Manrope:wght@500&family=Outfit:wght@700&family=Poppins:wght@300;400;500;700&display=swap"
         rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat&family=Croissant+One&family=DM+Sans&family=Josefin+Sans:wght@400;700&family=Manrope:wght@500&family=Outfit:wght@700&family=Poppins:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat&family=Croissant+One&family=DM+Sans&family=Josefin+Sans:wght@400;700&family=Manrope:wght@500&family=Outfit:wght@700&family=Poppins:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link rel="stylesheet" href=style.css>
     <title>Books Responsivo</title>
@@ -41,11 +47,17 @@
                 </li>
             </ul>
             <img src="imagem/logo.svg" class="container_imagem" alt="Logo da alurabook">
+            <h1 class="h1_tablet"><b class="negrito_tablet">Alura</b>Books</h1>
         </div>
+        <ul class="ul_tablet">
+            <li class="item_li">Categorias</li>
+            <li class="item_li">Favoritos</li>
+            <li class="item_li">Minha estante</li>
+        </ul>
         <div class="container">
             <a href="#"> <img src="imagem/favoritos.svg" alt="favoritos" class="container_imagem"></a>
             <a href="#"> <img src="imagem/compras.svg" alt="sacola de compras" class="container_imagem"></a>
-            <a href="#"> <img src="imagem/usuario.svg" alt="perfil do usuário" class="container_imagem"></a>
+            <a href="#"> <img src="imagem/usuario.svg" alt="perfil do usuário" class="container_imagem" id="fav"></a>
         </div>
     </header>
     <section class="banner">
@@ -171,12 +183,11 @@
             <p class="p_contato">Atualizações de e-books, novos livros, promoções e outros.</p>
             <input type="email" class="search_email" placeholder="Cadastre seu e-mail?">
         </div>
-    
-    <hr>
-    <footer>
-        <h2 class="h2_footer">Grupo Alura</h2>
-    </footer>
-</section>
+        <hr>
+        <footer>
+            <h2 class="h2_footer">Grupo Alura</h2>
+        </footer>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script>const swiper = new Swiper('.swiper', {
             spaceBetween: 10,
