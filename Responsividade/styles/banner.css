@@ -5,18 +5,15 @@
     padding: 2.5em 2em;
 }
 
-h2 {
+.titulo_banner {
     font-size: 18px;
     font-weight: 700;
-}
-
-p {
-    font-weight: 500;
 }
 
 .paragrfo_banner {
     font-weight: 500;
     margin: 1em 0;
+    font-size: 16px
 }
 
 .pesquisa_banner {
@@ -29,7 +26,7 @@ p {
     text-align: center;
 }
 
-.pesquisa_banner::placeholder{
+.pesquisa_banner::placeholder {
     font-family: "poppins";
     font-weight: 400;
     font-size: 14px;
@@ -37,5 +34,24 @@ p {
     text-align: center;
     background: url("../imagem/Pesquisa.svg") no-repeat;
     background-position: 1em;
-    
+
+}
+
+@media screen and (min-width:1024px) {
+
+    .titulo_banner {
+        font-size: 36px;
+        font-weight: 700;
+    }
+
+    .pesquisa_banner{
+        font-size: 16px;
+        font-weight: 400;
+        width: 50%;  
+    }
+
+    .pesquisa_banner::placeholder {
+        background-position: 12em;
+    }
+
 }

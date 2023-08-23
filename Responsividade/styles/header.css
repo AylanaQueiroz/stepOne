@@ -64,7 +64,7 @@
     display: none;
 }
 
-.ul_tablet{
+.ul_tablet {
     display: none;
 }
 
@@ -89,22 +89,44 @@
 
     .ul_tablet {
         display: flex;
-        
     }
-   
 
     .item_li {
         font-size: 16px;
         font-family: var(--fonte_principal);
-        font-weight: 400;   
+        font-weight: 400;
         padding-right: 4em;
+        text-transform: uppercase;
     }
 
     #fav {
         display: none;
     }
 
+    .container_imagem {
+        padding-right: 3em;
+    }
 
+    .cabeçalho_menu_hamburger {
+        display: none;
+    }
+
+    .lista_menu_tablet {
+        display: none;
+        position: absolute;
+        top: 100%;
+        color: #09395b;
+        width: auto;
+    }
+
+    .input_tablet:checked~.lista_menu_tablet{
+        display: block;   
+    }
+
+    .input_tablet {
+        display: none;
+    }
 
 
 }
+
