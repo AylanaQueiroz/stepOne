@@ -21,7 +21,6 @@
     align-items: center;
 }
 
-.container_imagem {}
 
 .lista_menu {
     display: none;
@@ -68,9 +67,23 @@
     display: none;
 }
 
+.p_icone {
+    display: none;
+}
+.input_tablet {
+    display: none;
+}
 
 
 @media screen and (min-width:1024px) {
+
+
+    .container_imagem_logo {
+        margin-left: 4em;
+        padding-right: 0.5em;
+    }
+
+
 
     .h1_tablet,
     .negrito_tablet {
@@ -119,14 +132,38 @@
         width: auto;
     }
 
-    .input_tablet:checked~.lista_menu_tablet{
-        display: block;   
+    .input_tablet:checked~.lista_menu_tablet {
+        display: block;
     }
 
-    .input_tablet {
-        display: none;
+    
+
+    
+
+}
+
+@media screen and (min-width:1728px) {
+
+
+    .container_a {
+
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: black;
+        margin-right: 5em;
+
+    }
+
+    .p_icone {
+        display: flex;
+        margin-left: -3em;
+    }
+
+    .cabeçalho {
+        padding: 0 2em;
+
     }
 
 
 }
-
