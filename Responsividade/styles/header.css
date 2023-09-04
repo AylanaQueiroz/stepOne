@@ -39,6 +39,7 @@
     display: block
 }
 
+
 .lista_menu_titulo,
 .lista_menu_item {
     background-color: var(--branco);
@@ -70,6 +71,7 @@
 .p_icone {
     display: none;
 }
+
 .input_tablet {
     display: none;
 }
@@ -78,6 +80,8 @@
 @media screen and (min-width:1024px) {
 
 
+
+    
     .container_imagem_logo {
         margin-left: 4em;
         padding-right: 0.5em;
@@ -136,9 +140,9 @@
         display: block;
     }
 
-    
 
-    
+
+
 
 }
 
@@ -165,5 +169,8 @@
 
     }
 
+    .ul_tablet {
+        margin-right: 20em;
+    }
 
 }
