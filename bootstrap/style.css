@@ -1,9 +1,14 @@
+.align_itens {
+   
+}
+
 .texto-menor {
     font-size: 13px;
 }
 
 .facilidades {
     width: 325px;
-    display: flex;
     justify-content: center;
+    
 }
+
