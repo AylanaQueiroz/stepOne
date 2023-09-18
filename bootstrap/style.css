@@ -12,3 +12,30 @@
     
 }
 
+.bi {
+    color:#DAFF01;
+}
+
+.ms-3  {
+    color:#DAFF01;
+}
+
+.texto-menor {
+    color: white;
+}
+
+.py-3 {
+    color: white;
+}
+
+.botao-lilas {
+    background-color: #9353FF;
+}
+
+#bg_btn {
+    background-color: #9353FF;
+    border-radius: 0px;
+    border: 0px solid 9353FF;
+    color: white;
+
+}
