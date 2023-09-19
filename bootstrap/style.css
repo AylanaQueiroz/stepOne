@@ -1,6 +1,4 @@
-.align_itens {
-   
-}
+.align_itens {}
 
 .texto-menor {
     font-size: 13px;
@@ -8,16 +6,15 @@
 
 .facilidades {
     width: 325px;
-    justify-content: center;
-    
+    justify-content: center
 }
 
 .bi {
-    color:#DAFF01;
+    color: #DAFF01;
 }
 
-.ms-3  {
-    color:#DAFF01;
+.ms-3 {
+    color: #DAFF01;
 }
 
 .texto-menor {
