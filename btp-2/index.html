@@ -4,17 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
 </head>
 
 <body>
     <nav class="navbar navbar-expand-md">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img class="d-block" src="img/mobile/logo-mobile.png" alt=""></a>
+            <a class="navbar-brand" href="#"><img class="d-block" src="img/mobile/logo-mobile.png"
+                    alt="Logo da cafeteria"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -41,7 +44,7 @@
     </nav>
     <div class="container-fluid">
         <div class="banner-mobile">
-            <img class="img-fluid d-md-none" src="img/mobile/banner-mobile.png"
+            <img class="img-fluid d-md-none" src="/img/mobile/banner-mobile.png"
                 alt="Logo cafeteria com plantas e vasos ao fundo">
             <img class="img-fluid d-none d-md-block d-xl-none" src="img/tablet/banner-tablet.png"
                 alt="Logo cafeteria com plantas e vasos ao fundo">
@@ -50,31 +53,47 @@
         </div>
         <h2 class="text-center py-4">Nossos Serviços</h2>
         <div class="nossos_servicos">
-            <div class="card">
-                <img src="..." class="card-img-top" alt="...">
+            <div class="card mb-4 mx-2">
+                <img src="img/mobile/servicos1-mobile.png" class="img-fluid d-md-none" alt="Vitrine de panificadora">
+                <img src="img/tablet/servicos1-tablet.png" class="img-fluid d-none d-md-block d-xl-none"
+                    alt="Vitrine de panificadora">
+                <img src="img/desktop/servicos1-desktop.png" class="img-fluid d-none d-xl-block d-md-none"
+                    alt="Vitrine de panificadora">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a  id=btn href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">Café & Bistrô</h5>
+                    <p class="card-text">SNosso bistrô oferece uma ampla variedade de cafés, smoothies, deliciosos
+                        salgados e sobremesas. Uma excelente opção para quem busca um lugar tranquilo e aconchegante..
+                    </p>
+                    <a id=btn href="#" class="btn btn-primary">Quero detalhes</a>
                 </div>
             </div>
-            <div class="card">
-                <img src="..." class="card-img-top" alt="...">
+            <div class="card mb-4 mx-2">
+                <img src="img/mobile/servicos2-mobile.png" class="img-fluid d-md-none"
+                    alt="Imagem alimentos compondo café da manhã">
+                <img src="img/tablet/servicos2-tablet.png" class="img-fluid d-none d-md-block d-xl-none"
+                    alt="Imagem alimentos compondo café da manhã">
+                <img src="img/desktop/servicos2-desktop.png" class="img-fluid d-none d-xl-block d-md-none"
+                    alt="Imagem alimentos compondo café da manhã">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a  id=btn href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">Buffet</h5>
+                    <p class="card-text">Buffet e catering personalizado para eventos, produções e celebrações. Com um
+                        menu variado e adaptável às preferências do cliente, atendimento atencioso e profissional..</p>
+                    <a id=btn href="#" class="btn btn-primary">Quero detalhes</a>
                 </div>
             </div>
-            <div class="card">
-                <img src="..." class="card-img-top" alt="...">
+            <div class="card mb-4 mx-2">
+                <img src="img/mobile/servicos3-mobile.png" class="img-fluid d-md-none"
+                    alt="Imagem de alimentos em caixa para embalagem">
+                <img src="img/tablet/servicos3-tablet.png " class="img-fluid d-none d-md-block d-xl-none"
+                    alt="Imagem de alimentos em caixa para embalagem">
+                <img src="img/desktop/servicos3-desktop.png " class="img-fluid d-none d-xl-block d-md-none"
+                    alt="Imagem de alimentos em caixa para embalagem">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a  id=btn href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">Delivery</h5>
+                    <p class="card-text">Para quem deseja desfrutar no conforto de casa, oferecemos delivery dos
+                        produtos. Com o mesmo cardápio variado de sempre, sem perder nosso sabor e padrão de qualidade..
+                    </p>
+                    <a id=btn href="#" class="btn btn-primary">Quero detalhes</a>
                 </div>
             </div>
         </div>
