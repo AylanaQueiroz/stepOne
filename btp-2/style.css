@@ -1,3 +1,9 @@
+body {
+    font-family: 'Barlow', sans-serif;
+    --marrom-claro: #B29463;
+    --marrom-escuro: #816D4F;
+}
+
 .img-fluid {
     width: 100%;
 }
@@ -23,3 +29,20 @@ footer {
     background-color: #B29463;
 
 }
+
+#customRange1 {
+    color:  #B29463;
+}
+
+input[type=checkbox] {
+    border: 2px solid var(--marrom-claro);
+    box-shadow: none;
+  }
+  
+  input[type=checkbox]:checked,
+  input[type="checkbox"]:focus {
+    background-color: var(--marrom-claro);
+    border-color: var(--marrom-claro);
+    box-shadow: none;
+    outline: none;
+  }
