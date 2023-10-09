@@ -17,89 +17,98 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img class="d-block" src="img/mobile/logo-mobile.png"
-                    alt="Logo da cafeteria"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Início</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Sobre</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Contato</a>
-                    </li>
-
-                    <div class="form-check form-switch mt-2">
-                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-                        <label class="form-check-label" for="flexSwitchCheckDefault">Modo noturno</label>
-                    </div>
+    <header>
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img class="d-block" src="img/mobile/logo-mobile.png"
+                        alt="Logo da cafeteria srenatto"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto">
+                        <a class="navbar-brand" href="#"><img class="d-block d-md-none d-xl-none"
+                                src="img/mobile/logo-mobile.png" alt="Logo da cafeteria srenatto"></a>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <div class="form-check form-switch mt-2">
+                                    <input class="form-check-input" type="checkbox" role="switch"
+                                        id="flexSwitchCheckDefault">
+                                    <label class="form-check-label" for="flexSwitchCheckDefault">Modo noturno</label>
+                                </div>
+                            </a>
+                        </li>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
     <div class="container-fluid">
-        <div class="banner">
-            <img class="img-fluid d-md-none" src="/img/mobile/banner-mobile.png"
-                alt="Imagemcom plantas e vasos ao fundo">
-            <img class="img-fluid d-none d-md-block d-xl-none" src="img/tablet/banner-tablet.png"
-                alt="Imagem com plantas e vasos ao fundo">
-            <img class="img-fluid d-none d-xl-block d-md-none" src="img/desktop/banner-desktop.png"
-                alt="Imagem com plantas e vasos ao fundo">
+        <div class="banner-1 d-flex flex-column justify-content-center">
+            <div class="banner-titulo">
+                <h2>Sua pausa para desfrutar a vida. </h2>
+                <p>Boas-vindas ao & Bistrô Serenatto! Um ambiente aconchegante e acolhedor para apreciar um bom café.
+                </p>
+            </div>
+
         </div>
-        <h2 class="text-center py-4">Nossos Serviços</h2>
-        <div class="nossos_servicos d-xl-flex">
-            <div class="card mx-auto mb-4">
-                <img src="img/mobile/servicos1-mobile.png" class="img-fluid d-md-none" alt="Vitrine de panificadora">
-                <img src="img/tablet/servicos1-tablet.png" class="img-fluid d-none d-md-block d-xl-none"
-                    alt="Vitrine de panificadora">
-                <img src="img/desktop/servicos1-desktop.png" class="img-fluid d-none d-xl-block d-md-none"
-                    alt="Vitrine de panificadora">
-                <div class="card-body">
-                    <h5 class="card-title">Café & Bistrô</h5>
-                    <p class="card-text">Nosso bistrô oferece uma ampla variedade de cafés, smoothies, deliciosos
-                        salgados e sobremesas. Uma excelente opção para quem busca um lugar tranquilo e aconchegante..
-                    </p>
-                    <a id=btn href="#" class="btn btn-primary">Quero detalhes</a>
-                </div>
-            </div>
-            <div class="card mx-auto mb-4">
-                <img src="img/mobile/servicos2-mobile.png" class="img-fluid d-md-none"
-                    alt="Imagem alimentos compondo café da manhã">
-                <img src="img/tablet/servicos2-tablet.png" class="img-fluid d-none d-md-block d-xl-none"
-                    alt="Imagem alimentos compondo café da manhã">
-                <img src="img/desktop/servicos2-desktop.png" class="img-fluid d-none d-xl-block d-md-none"
-                    alt="Imagem alimentos compondo café da manhã">
-                <div class="card-body">
-                    <h5 class="card-title">Buffet</h5>
-                    <p class="card-text">Buffet e catering personalizado para eventos, produções e celebrações. Com um
-                        menu variado e adaptável às preferências do cliente, atendimento atencioso e profissional..</p>
-                    <a id=btn href="#" class="btn btn-primary">Quero detalhes</a>
-                </div>
-            </div>
-            <div class="card mx-auto mb-4">
-                <img src="img/mobile/servicos3-mobile.png" class="img-fluid d-md-none"
-                    alt="Imagem de alimentos em caixa para embalagem">
-                <img src="img/tablet/servicos3-tablet.png" class="img-fluid d-none d-md-block d-xl-none"
-                    alt="Imagem de alimentos em caixa para embalagem">
-                <img src="img/desktop/servicos3-desktop.png" class="img-fluid d-none d-xl-block d-md-none"
-                    alt="Imagem de alimentos em caixa para embalagem">
-                <div class="card-body">
-                    <h5 class="card-title">Delivery</h5>
-                    <p class="card-text">Para quem deseja desfrutar no conforto de casa, oferecemos delivery dos
-                        produtos. Com o mesmo cardápio variado de sempre, sem perder nosso sabor e padrão de qualidade..
-                    </p>
-                    <a id=btn href="#" class="btn btn-primary">Quero detalhes</a>
-                </div>
+    </div>
+    <h2 class="text-center py-4">Nossos Serviços</h2>
+    <div class="nossos_servicos d-xl-flex">
+        <div class="card mx-auto mb-4">
+            <img src="img/mobile/servicos1-mobile.png" class="img-fluid d-md-none" alt="Vitrine de panificadora">
+            <img src="img/tablet/servicos1-tablet.png" class="img-fluid d-none d-md-block d-xl-none"
+                alt="Vitrine de panificadora">
+            <img src="img/desktop/servicos1-desktop.png" class="img-fluid d-none d-xl-block d-md-none"
+                alt="Vitrine de panificadora">
+            <div class="card-body">
+                <h5 class="card-title">Café & Bistrô</h5>
+                <p class="card-text">Nosso bistrô oferece uma ampla variedade de cafés, smoothies, deliciosos
+                    salgados e sobremesas. Uma excelente opção para quem busca um lugar tranquilo e aconchegante..
+                </p>
+                <a id=btn href="#" class="btn btn-primary">Quero detalhes</a>
             </div>
         </div>
+        <div class="card mx-auto mb-4">
+            <img src="img/mobile/servicos2-mobile.png" class="img-fluid d-md-none"
+                alt="Imagem alimentos compondo café da manhã">
+            <img src="img/tablet/servicos2-tablet.png" class="img-fluid d-none d-md-block d-xl-none"
+                alt="Imagem alimentos compondo café da manhã">
+            <img src="img/desktop/servicos2-desktop.png" class="img-fluid d-none d-xl-block d-md-none"
+                alt="Imagem alimentos compondo café da manhã">
+            <div class="card-body">
+                <h5 class="card-title">Buffet</h5>
+                <p class="card-text">Buffet e catering personalizado para eventos, produções e celebrações. Com um
+                    menu variado e adaptável às preferências do cliente, atendimento atencioso e profissional..</p>
+                <a id=btn href="#" class="btn btn-primary">Quero detalhes</a>
+            </div>
+        </div>
+        <div class="card mx-auto mb-4">
+            <img src="img/mobile/servicos3-mobile.png" class="img-fluid d-md-none"
+                alt="Imagem de alimentos em caixa para embalagem">
+            <img src="img/tablet/servicos3-tablet.png" class="img-fluid d-none d-md-block d-xl-none"
+                alt="Imagem de alimentos em caixa para embalagem">
+            <img src="img/desktop/servicos3-desktop.png" class="img-fluid d-none d-xl-block d-md-none"
+                alt="Imagem de alimentos em caixa para embalagem">
+            <div class="card-body">
+                <h5 class="card-title">Delivery</h5>
+                <p class="card-text">Para quem deseja desfrutar no conforto de casa, oferecemos delivery dos
+                    produtos. Com o mesmo cardápio variado de sempre, sem perder nosso sabor e padrão de qualidade..
+                </p>
+                <a id=btn href="#" class="btn btn-primary">Quero detalhes</a>
+            </div>
+        </div>
+    </div>
     </div>
     <div class="card_2">
         <img src="img/mobile/Banner2-mobile.png" class="img-fluid d-md-none"
