@@ -13,24 +13,23 @@
         href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Barlow:wght@400;600&display=swap"
         rel="stylesheet">
     <title>Document</title>
-
 </head>
 
-<body>
+<body data-bs-theme="light">
     <header>
-        <nav class="navbar navbar-expand-md">
+        <nav class="navbar navbar-expand-xl">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img class="d-block" src="img/mobile/logo-mobile.png"
-                        alt="Logo da cafeteria srenatto"></a>
+                <a class="navbar-brand" href="#"><img class="d-block" src="./img/mobile/logo-mobile.png"
+                        alt="Logo da cafeteria Serenatto"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto">
+                    <ul class="navbar-nav ">
                         <a class="navbar-brand" href="#"><img class="d-block d-md-none d-xl-none"
-                                src="img/mobile/logo-mobile.png" alt="Logo da cafeteria srenatto"></a>
+                                src="./img/mobile/logo-mobile.png" alt="Logo da cafeteria srenatto"></a>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Início</a>
                         </li>
@@ -42,10 +41,9 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">
-                                <div class="form-check form-switch mt-2">
-                                    <input class="form-check-input" type="checkbox" role="switch"
-                                        id="flexSwitchCheckDefault">
-                                    <label class="form-check-label" for="flexSwitchCheckDefault">Modo noturno</label>
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" role="switch" id="modo-noturno">
+                                    <label class="form-check-label" for="modo-noturno">Modo noturno</label>
                                 </div>
                             </a>
                         </li>
@@ -54,71 +52,71 @@
         </nav>
     </header>
     <div class="container-fluid">
-        <div class="banner-1 d-flex flex-column justify-content-center">
-            <div class="banner-titulo">
-                <h2>Sua pausa para desfrutar a vida. </h2>
+        <div class="banner-1 d-flex flex-column justify-content-center text-center">
+            <div class="banner-titulo bg-body-secondary py-5">
+                <h2 class="fw-bold">Sua pausa para desfrutar a vida. </h2>
                 <p>Boas-vindas ao & Bistrô Serenatto! Um ambiente aconchegante e acolhedor para apreciar um bom café.
                 </p>
             </div>
-
         </div>
     </div>
-    <h2 class="text-center py-4">Nossos Serviços</h2>
+    <h2 class="text-center py-4 fw-bold">Nossos Serviços</h2>
     <div class="nossos_servicos d-xl-flex">
         <div class="card mx-auto mb-4">
-            <img src="img/mobile/servicos1-mobile.png" class="img-fluid d-md-none" alt="Vitrine de panificadora">
-            <img src="img/tablet/servicos1-tablet.png" class="img-fluid d-none d-md-block d-xl-none"
+            <img src="./img/mobile/servicos1-mobile.png" class="img-fluid d-md-none" alt="Vitrine de panificadora">
+            <img src="./img/tablet/servicos1-tablet.png" class="img-fluid d-none d-md-block d-xl-none"
                 alt="Vitrine de panificadora">
-            <img src="img/desktop/servicos1-desktop.png" class="img-fluid d-none d-xl-block d-md-none"
+            <img src="./img/desktop/servicos1-desktop.png" class="img-fluid d-none d-xl-block d-md-none"
                 alt="Vitrine de panificadora">
             <div class="card-body">
                 <h5 class="card-title">Café & Bistrô</h5>
                 <p class="card-text">Nosso bistrô oferece uma ampla variedade de cafés, smoothies, deliciosos
                     salgados e sobremesas. Uma excelente opção para quem busca um lugar tranquilo e aconchegante..
                 </p>
-                <a id=btn href="#" class="btn btn-primary">Quero detalhes</a>
+                <a id=btn href="#" class="btn btn-primary fw-bold">Quero detalhes</a>
             </div>
         </div>
         <div class="card mx-auto mb-4">
-            <img src="img/mobile/servicos2-mobile.png" class="img-fluid d-md-none"
+            <img src="./img/mobile/servicos2-mobile.png" class="img-fluid d-md-none"
                 alt="Imagem alimentos compondo café da manhã">
-            <img src="img/tablet/servicos2-tablet.png" class="img-fluid d-none d-md-block d-xl-none"
+            <img src="./img/tablet/servicos2-tablet.png" class="img-fluid d-none d-md-block d-xl-none"
                 alt="Imagem alimentos compondo café da manhã">
-            <img src="img/desktop/servicos2-desktop.png" class="img-fluid d-none d-xl-block d-md-none"
+            <img src="./img/desktop/servicos2-desktop.png" class="img-fluid d-none d-xl-block d-md-none"
                 alt="Imagem alimentos compondo café da manhã">
             <div class="card-body">
                 <h5 class="card-title">Buffet</h5>
                 <p class="card-text">Buffet e catering personalizado para eventos, produções e celebrações. Com um
                     menu variado e adaptável às preferências do cliente, atendimento atencioso e profissional..</p>
-                <a id=btn href="#" class="btn btn-primary">Quero detalhes</a>
+                <a id=btn href="#" class="btn btn-primary fw-bold">Quero detalhes</a>
             </div>
         </div>
         <div class="card mx-auto mb-4">
-            <img src="img/mobile/servicos3-mobile.png" class="img-fluid d-md-none"
+            <img src="./img/mobile/servicos3-mobile.png" class="img-fluid d-md-none"
                 alt="Imagem de alimentos em caixa para embalagem">
-            <img src="img/tablet/servicos3-tablet.png" class="img-fluid d-none d-md-block d-xl-none"
+            <img src="./img/tablet/servicos3-tablet.png" class="img-fluid d-none d-md-block d-xl-none"
                 alt="Imagem de alimentos em caixa para embalagem">
-            <img src="img/desktop/servicos3-desktop.png" class="img-fluid d-none d-xl-block d-md-none"
+            <img src="./img/desktop/servicos3-desktop.png" class="img-fluid d-none d-xl-block d-md-none"
                 alt="Imagem de alimentos em caixa para embalagem">
             <div class="card-body">
                 <h5 class="card-title">Delivery</h5>
                 <p class="card-text">Para quem deseja desfrutar no conforto de casa, oferecemos delivery dos
                     produtos. Com o mesmo cardápio variado de sempre, sem perder nosso sabor e padrão de qualidade..
-                </p>
-                <a id=btn href="#" class="btn btn-primary">Quero detalhes</a>
+                </p><br>
+                <a id=btn href="#" class="btn btn-primary fw-bold">Quero detalhes</a>
             </div>
         </div>
     </div>
+    <div class="container-fluid">
+        <div class="banner-2 d-flex flex-column justify-content-center text-center">
+            <div class="banner-titulo bg-body-secondary py-5">
+                <h2 class="fw-bold">Portas abertas para todos os públicos.</h2>
+                <p>Nosso espaço é aconchegante, pet friendly, preparado para receber crianças e pessoas com deficiência.
+                    Também oferecemos ambiente de coworking!
+                </p>
+            </div>
+        </div>
     </div>
-    <div class="card_2">
-        <img src="img/mobile/Banner2-mobile.png" class="img-fluid d-md-none"
-            alt="Imagem de panificadora fotografada do alto">
-        <img src="img/tablet/banner2-tablet.png" class="img-fluid d-none d-md-block d-xl-none"
-            alt="Imagem de panificadora fotografada do alto">
-        <img src="img/desktop/banner2-desktop.png" class="img-fluid d-none d-xl-block d-md-none"
-            alt="Imagem de panificadora fotografada do alto">
-    </div>
-    <h2 class="text-center pt-4">Nossos produtos</h2>
+    <h2 class="text-center pt-4 fw-bold">Nossos produtos</h2>
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-6 col-xl-4">
@@ -129,77 +127,72 @@
                 <img src="img/desktop/Cafés tradicionais.png" class="img-fluid d-none d-xl-block d-md-none"
                     alt="Imagem xícara de café branca sobre pires branco">
                 <div class="card-body">
-                    <h5 class="card-title text-center">Cafés tradicionais</h5>
+                    <h5 class="card-title text-center fw-bold">Cafés tradicionais</h5>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-xl-4">
-                <img src="img/mobile/Cafés_especiais-mobile.png" class="img-fluid d-md-none"
+                <img src="./img/mobile/Cafés_especiais-mobile.png" class="img-fluid d-md-none"
                     alt="Imagem de chícara de capuccino decorado">
-                <img src="img/tablet/Cafés_especiais-tablet.png" class="img-fluid d-none d-md-block d-xl-none"
+                <img src="./img/tablet/Cafés_especiais-tablet.png" class="img-fluid d-none d-md-block d-xl-none"
                     alt="Imagem de chícara de capuccino decorado">
-                <img src="img/desktop/Cafés especiais.png" class="img-fluid d-none d-xl-block d-md-none"
+                <img src="./img/desktop/Cafés especiais.png" class="img-fluid d-none d-xl-block d-md-none"
                     alt="Imagem de chícara de capuccino decorado">
                 <div class="card-body">
-                    <h5 class="card-title text-center">Cafés Especiais</h5>
+                    <h5 class="card-title text-center fw-bold">Cafés Especiais</h5>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-xl-4">
-                <img src="img/mobile/Smoothies-mobile.png" class="img-fluid d-md-none"
+                <img src="./img/mobile/Smoothies-mobile.png" class="img-fluid d-md-none"
                     alt="Imagem de 3 copos com vitamina decorados com frutas ao redor dos copos">
-                <img src="img/tablet/Smoothies-tablet.png" class="img-fluid d-none d-md-block d-xl-none"
+                <img src="./img/tablet/Smoothies-tablet.png" class="img-fluid d-none d-md-block d-xl-none"
                     alt="Imagem de 3 copos com vitamina decorados com frutas ao redor dos copos">
-                <img src="img/desktop/Smoothies e vitaminas.png" class="img-fluid d-none d-xl-block d-md-none"
+                <img src="./img/desktop/Smoothies e vitaminas.png" class="img-fluid d-none d-xl-block d-md-none"
                     alt="Imagem de 3 copos com vitamina decorados com frutas ao redor dos copos">
                 <div class="card-body">
-                    <h5 class="card-title text-center">Smoothies e Vitaminas</h5>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-xl-4">
-                <img src="img/mobile/Pães-mobile.png" class="img-fluid d-md-none"
-                    alt="Imagem de cesta com diversos pães dentro e ao redor da cesta">
-                <img src="img/tablet/Pães e focaccias.png" class="img-fluid d-none d-md-block d-xl-none"
-                    alt="Imagem de cesta com diversos pães dentro e ao redor da cesta">
-                <img src="img/desktop/Pães e focaccias.png" class="img-fluid d-none d-xl-block d-md-none"
-                    alt="Imagem de cesta com diversos pães dentro e ao redor da cesta">
-                <div class="card-body">
-                    <h5 class="card-title text-center">Pães e Focaccias</h5>
+                    <h5 class="card-title text-center fw-bold">Smoothies e Vitaminas</h5>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-xl-4">
-                <img src="img/mobile/Doces-mobile.png" class="img-fluid d-md-none"
-                    alt="Imagem de bolo redondo tipo torta">
-                <img src="img/tablet/Doces-tablet.png" class="img-fluid d-none d-md-block d-xl-none"
-                    alt="Imagem de bolo redondo tipo torta">
-                <img src="img/desktop/Doces.png" class="img-fluid d-none d-xl-block d-md-none"
-                    alt="Imagem de bolo redondo tipo torta">
+                <img src="./img/mobile/Pães-mobile.png" class="img-fluid d-md-none"
+                    alt="Imagem de cesta com diversos pães dentro e ao redor da cesta">
+                <img src="./img/tablet/Pães e focaccias.png" class="img-fluid d-none d-md-block d-xl-none"
+                    alt="Imagem de cesta com diversos pães dentro e ao redor da cesta">
+                <img src="./img/desktop/Pães e focaccias.png" class="img-fluid d-none d-xl-block d-md-none"
+                    alt="Imagem de cesta com diversos pães dentro e ao redor da cesta">
                 <div class="card-body">
-                    <h5 class="card-title text-center">Doces</h5>
+                    <h5 class="card-title text-center fw-bold">Pães e Focaccias</h5>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-xl-4">
-                <img src="img/mobile/Salgados (1).png" class="img-fluid d-md-none"
+                <img src="./img/mobile/Doces-mobile.png" class="img-fluid d-md-none"
+                    alt="Imagem de bolo redondo tipo torta">
+                <img src="./img/tablet/Doces-tablet.png" class="img-fluid d-none d-md-block d-xl-none"
+                    alt="Imagem de bolo redondo tipo torta">
+                <img src="./img/desktop/Doces.png" class="img-fluid d-none d-xl-block d-md-none"
+                    alt="Imagem de bolo redondo tipo torta">
+                <div class="card-body">
+                    <h5 class="card-title text-center fw-bold">Doces</h5>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4">
+                <img src="./img/mobile/Salgados (1).png" class="img-fluid d-md-none"
                     alt="Imagem torta de sal faltando uma fatia">
-                <img src="img/tablet/Salgados (2).png" class="img-fluid d-none d-md-block d-xl-none"
+                <img src="./img/tablet/Salgados (2).png" class="img-fluid d-none d-md-block d-xl-none"
                     alt="Imagem torta de sal faltando uma fatia">
-                <img src="img/desktop/Salgados (3).png" class="img-fluid d-none d-xl-block d-md-none"
+                <img src="./img/desktop/Salgados (3).png" class="img-fluid d-none d-xl-block d-md-none"
                     alt="Imagem torta de sal faltando uma fatia">
                 <div class="card-body">
-                    <h5 class="card-title text-center">Salgados</h5>
+                    <h5 class="card-title text-center fw-bold">Salgados</h5>
                 </div>
             </div>
         </div>
     </div>
-    <div class="mt-4">
-        <img src="img/mobile/Image.png" class="img-fluid d-md-none" alt="Imagem de grãos de café">
-        <img src="img/tablet/banner3-tablet.png" class="img-fluid d-none d-md-block d-xl-none"
-            alt="Imagem de grãos de café">
-        <img src="img/desktop/carousel/carousel/Image.png" class="img-fluid d-none d-xl-block d-md-none"
-            alt="Imagem de grãos de café">
+    <div class="container-fluid mt-5">
+        <div class="banner-3 d-flex flex-column justify-content-center text-center"></div>
     </div>
     <div class="container my-5 px-4 col-12 col-md-6 col-xl-6">
         <form class="border rounded px-4 py-4">
-            <h5 class="">Entre em contato!</h5>
+            <h5 class="fw-bold">Entre em contato!</h5>
             <div class="form-group py-4">
                 <input type="Name" class="form-control" placeholder="Nome">
             </div>
@@ -224,15 +217,15 @@
                         value="deseja receber novidades e promoções por email?">
                     <label class="pb-3">Deseja receber novidades e promoções por email?</label>
                 </div>
-                <button id="btn" type="submit" class="btn btn-primary">Enviar</button>
+                <button id="btn" type="submit" class="btn btn-primary fw-bold">Enviar</button>
             </div>
         </form>
     </div>
     <footer>
         <div class="text-center">
-            <img class="my-3 p-3" src="img/mobile/Whatsapp 1.png" alt="Logo Whatsapp">
-            <img src="img/mobile/Twiter 1.png" alt="Logo Twitter">
-            <img class="p-3" src="img/mobile/Instragam 1.png" alt="Logo instagram">
+            <img class="my-3 p-3" src="./img/mobile/Whatsapp 1.png" alt="Logo Whatsapp">
+            <img src="./img/mobile/Twiter 1.png" alt="Logo Twitter">
+            <img class="p-3" src="./img/mobile/Instragam 1.png" alt="Logo instagram">
             <p class="p-3">2023 © Desenvolvido por Aylana| Projeto fictício sem fins comerciais.</p>
         </div>
     </footer>
@@ -241,6 +234,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
